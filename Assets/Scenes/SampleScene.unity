@@ -150,11 +150,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9332bd42628466419a910b42cc52d29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alturaActor: 2
+  alturaActor: 3
   anchoActor: 2
   collisionLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 192
 --- !u!114 &313787121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,7 +168,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRenderer: {fileID: 313787118}
-  velocidadCorrer: 0
+  velocidadCorrer: 12
+  fuerzaDeGravedad: 1.5
+--- !u!114 &313787122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313787116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4935106863af9f4792ae0a0526c08be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fuerzaDeSalto: 18
+--- !u!114 &313787124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313787116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33a6f863e19fd2b46af1a82b317c2a7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rangoPatada: 3
+  rangoJab: 2
+  danioPatada: 20
+  danioJab: 10
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,7 +349,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -1
   m_Sprite: {fileID: 2137725792, guid: 96af0f2b80db85c4497a72151a14730b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -421,8 +451,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movimientoJugador: {fileID: 313787121}
+  salto: {fileID: 313787122}
   animacion: {fileID: 313787117}
   detector: {fileID: 313787120}
+  ataque: {fileID: 313787124}
 --- !u!4 &1682303888
 Transform:
   m_ObjectHideFlags: 0
@@ -658,7 +690,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4140858533077958233, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.91
+      value: -2.93
       objectReference: {fileID: 0}
     - target: {fileID: 4140858533077958233, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -714,6 +746,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4631036899367573231, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 313787120}
+    - targetCorrespondingSourceObject: {fileID: 4631036899367573231, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 313787122}
+    - targetCorrespondingSourceObject: {fileID: 4631036899367573231, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 313787124}
   m_SourcePrefab: {fileID: 100100000, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
