@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRenderer: {fileID: 313787118}
-  velocidadCorrer: 12
+  velocidadCorrer: 10
   fuerzaDeGravedad: 1.5
 --- !u!114 &313787122
 MonoBehaviour:
@@ -199,6 +199,7 @@ MonoBehaviour:
   rangoJab: 2
   danioPatada: 20
   danioJab: 10
+  danioSpecialKick: 50
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,7 +622,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2042242722982252394, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7140070362124781726, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: m_FlipX
@@ -629,7 +630,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7664993283350385622, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.1
+      value: 0.162
       objectReference: {fileID: 0}
     - target: {fileID: 7664993283350385622, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -686,7 +687,7 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 833119ec7028ba342a6df93edf0b76aa, type: 2}
     - target: {fileID: 4140858533077958233, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.6
+      value: -5.293
       objectReference: {fileID: 0}
     - target: {fileID: 4140858533077958233, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
       propertyPath: m_LocalPosition.y

@@ -10,7 +10,6 @@ public class Movimiento : MonoBehaviour
 
     SpacialDetector detector;
     Animator animator;
-    bool estaSaltando = false;
     float xVelocidad;
     float yVelocidad;
     float deltaX => xVelocidad * Time.fixedDeltaTime;
@@ -47,7 +46,7 @@ public class Movimiento : MonoBehaviour
     {
         animator.SetFloat("yVelocidad", yVelocidad);
 
-        if (!detector.esPiso(0.1f, deltaY))
+        if (!detector.esPiso(0.2f, deltaY))
         {
             // Controlo la fuerza de gravedad
             yVelocidad -= fuerzaDeGravedad;

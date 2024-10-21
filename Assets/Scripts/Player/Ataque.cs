@@ -11,6 +11,8 @@ public class Ataque : MonoBehaviour
     [SerializeField] public float rangoJab = 2f;
     [SerializeField] int danioPatada = 20;
     [SerializeField] int danioJab = 10;
+    [SerializeField] int danioFlyingKick = 20;
+    [SerializeField] int danioSpecialKick = 50;
 
     public void InitializeReferences(Animator animator, SpacialDetector detector)
     {
@@ -38,6 +40,26 @@ public class Ataque : MonoBehaviour
         }
     }
 
+    // Activo Trigger Special Kick
+    public void AtaqueSpecialKick()
+    {
+        if (detector.esPiso(0.1f, 0))
+        {
+            SpecialKick();
+            animator.SetTrigger("specialKick");
+        }
+    }
+
+    // Activo Trigger Flying Kick
+    public void AtaqueFlyingKick()
+    {
+        if (!detector.esPiso(0.1f, 0))
+        {
+            FlyingKick();
+            animator.SetTrigger("flyingKick");
+        }
+    }
+
     // Metodos para Detectar enemigos?? -- Agregar lo necesario
     public void Jab()
     {
@@ -47,5 +69,15 @@ public class Ataque : MonoBehaviour
     public void HighKick()
     {
         Debug.Log("Dentro de HighKick");
+    }
+
+    public void SpecialKick()
+    {
+        Debug.Log("Dentro de Special Kick");
+    }
+
+    public void FlyingKick()
+    {
+        Debug.Log("Dentro de Flying Kick");
     }
 }

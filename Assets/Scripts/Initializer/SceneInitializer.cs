@@ -26,4 +26,10 @@ public class SceneInitializer : MonoBehaviour
 
     // Llamo al método de Ataque (High Kick)
     public void OnHighKick() { ataque.AtaqueHighKick(); }
+
+    // Llamo al metodo de Ataque (Special Kkick)
+    public void OnSpecialKick() { ataque.AtaqueSpecialKick(); }
+
+    // Llamo al metodo de Ataque (Special Kick)
+    public void OnFlyingKick() { ataque.AtaqueFlyingKick(); }
 }
