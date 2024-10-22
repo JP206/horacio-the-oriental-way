@@ -25,9 +25,9 @@ public class InputManager : MonoBehaviour
 
     void DetectarAtaque()
     {
-        if (Input.GetButtonDown("Jab")) { initializer.OnJab(); }
-        if (Input.GetButtonDown("HighKick")) { initializer.OnHighKick(); }
-        if (Input.GetButtonDown("SpecialKick")) { initializer.OnSpecialKick(); }
-        if (Input.GetButtonDown("FlyingKick")) { initializer.OnFlyingKick(); }
+        if (Input.GetButtonDown("Jab")) { initializer.OnJab(); } // Boton X
+        if (Input.GetButtonDown("HighKick")) { initializer.OnHighKick(); } // Boton Z
+        if (Input.GetButtonDown("SpecialKick")) { initializer.OnSpecialKick(); } // Boton C
+        if (Input.GetButtonDown("FlyingKick")) { initializer.OnFlyingKick(); } // Boton Left Control
     }
 }
