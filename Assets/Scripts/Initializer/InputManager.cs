@@ -27,7 +27,7 @@ public class InputManager : MonoBehaviour
     {
         if (Input.GetButtonDown("Jab")) { initializer.OnJab(); }
         if (Input.GetButtonDown("HighKick")) { initializer.OnHighKick(); }
-        if (Input.GetKeyDown(KeyCode.V) && Input.GetKeyDown(KeyCode.C)) { initializer.OnSpecialKick(); }
+        if (Input.GetButtonDown("SpecialKick")) { initializer.OnSpecialKick(); }
         if (Input.GetButtonDown("FlyingKick")) { initializer.OnFlyingKick(); }
     }
 }
