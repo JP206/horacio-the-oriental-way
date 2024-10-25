@@ -10,6 +10,7 @@ public class SceneInitializer : MonoBehaviour
     [SerializeField] Animator animacion;
     [SerializeField] SpacialDetector detector;
     [SerializeField] Ataque ataque;
+
     void Start()
     {
         movimientoJugador.InitializeReferences(detector, animacion);
