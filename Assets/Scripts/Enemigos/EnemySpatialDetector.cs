@@ -11,13 +11,11 @@ public class EnemySpatialDetector : MonoBehaviour
     MovimientoEnemigo movimientoEnemigo;
     GameObject jugador;
 
-    void Start()
+    public void InitializeReferences(AtaqueEnemigo _ataqueEnemigo, MovimientoEnemigo _movimientoEnemigo, GameObject _jugador)
     {
-        ataqueEnemigo = GetComponent<AtaqueEnemigo>();
-        jugador = GameObject.FindWithTag("Player");
-        movimientoEnemigo = GetComponent<MovimientoEnemigo>();
-        ataqueEnemigo = GetComponent<AtaqueEnemigo>();
-        // no se si ta bien esto, porque los enemigos aparecen dinamicamente y no se pueden asignar en el inspector a SceneInitializer
+        ataqueEnemigo = _ataqueEnemigo;
+        movimientoEnemigo = _movimientoEnemigo;
+        jugador = _jugador;
     }
 
     void Update()

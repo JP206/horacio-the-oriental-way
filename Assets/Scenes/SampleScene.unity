@@ -717,6 +717,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2042242722982252394, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 383645644454490429}
+    - targetCorrespondingSourceObject: {fileID: 2042242722982252394, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 383645644454490430}
   m_SourcePrefab: {fileID: 100100000, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
 --- !u!1 &383645644454490423 stripped
 GameObject:
@@ -752,12 +755,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadCorrer: 4
-  enemyRenderer: {fileID: 383645644454490427}
---- !u!212 &383645644454490427 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 7140070362124781726, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
-  m_PrefabInstance: {fileID: 383645644454490422}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &383645644454490429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -772,6 +769,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cooldownAtaques: 3
   golpeDerecha: 1
+--- !u!114 &383645644454490430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383645644454490423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea01303c47e8724882bf04e0f1bc4af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &942103363208304356
 PrefabInstance:
   m_ObjectHideFlags: 0

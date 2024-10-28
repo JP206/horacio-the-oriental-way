@@ -10,9 +10,9 @@ public class AtaqueEnemigo : MonoBehaviour
     Animator animator;
     bool puedeAtacar = true; // Especie de semaforo para permitir atacar si se llama varias veces Ataque()
     
-    void Start()
+    public void InitializeReferences(Animator _animator)
     {
-        animator = GetComponent<Animator>();
+        animator = _animator;
     }
 
     public void Ataque()
