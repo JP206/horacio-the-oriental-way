@@ -5,16 +5,17 @@ using UnityEngine;
 public class MovimientoEnemigo : MonoBehaviour
 {
     [SerializeField] float velocidadCorrer;
-    [SerializeField] SpriteRenderer enemyRenderer;
-
+    
+    SpriteRenderer enemyRenderer;
     Animator animator;
     float xVelocidad, yVelocidad;
     float deltaX => xVelocidad * Time.fixedDeltaTime;
     float deltaY => yVelocidad * Time.deltaTime;
 
-    void Start()
+    public void InitializeReferences(Animator _animator, SpriteRenderer _spriteRenderer)
     {
-        animator = GetComponent<Animator>();
+        enemyRenderer = _spriteRenderer;
+        animator = _animator;
     }
 
     void FixedUpdate()
