@@ -2,12 +2,19 @@ using UnityEngine;
 
 public class VidaJugador : MonoBehaviour
 {
+    Animator animator;
+    
     // Propiedades de la vida del jugador
     public int vidaMaxima = 100; 
     private int vidaActual;
+    public void InitializeReferences( Animator animator )
+    {
+        this.animator = animator;
+    }
 
     public int VidaActual()
     {
+        Debug.Log("vidaActual: " + vidaActual);
         // Inicializamos la vida al valor máximo al comenzar
         vidaActual = vidaMaxima;
         return vidaActual;

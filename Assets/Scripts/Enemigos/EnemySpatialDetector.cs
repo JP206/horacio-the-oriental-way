@@ -27,7 +27,11 @@ public class EnemySpatialDetector : MonoBehaviour
         if (hit.collider != null)
         {
             movimientoEnemigo.MovimientoX(0);
-            ataqueEnemigo.Ataque();
+            
+            if (hit.collider.CompareTag("Player"))
+            {
+                ataqueEnemigo.Ataque();
+            }
         }
         else
         {

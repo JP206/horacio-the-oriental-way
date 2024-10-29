@@ -24,12 +24,12 @@ public class AtaqueEnemigo : MonoBehaviour
         if (golpeDerecha && puedeAtacar) {
             StartCoroutine(ataque());
 
-            //Debug.Log("dentro de vidaJugador " + vidaJugador);
-            //if (vidaJugador.VidaActual() > 0)
-            //{
-            //    Debug.Log("dentro de ataque vidaJugador");
-            //    vidaJugador.RecibirDanio(danioJab);
-            //}
+            Debug.Log("dentro de vidaJugador " + vidaJugador);
+            if (vidaJugador.VidaActual() > 0)
+            {
+                Debug.Log("dentro de ataque vidaJugador");
+                vidaJugador.RecibirDanio(danioJab);
+            }
         }
     }
 

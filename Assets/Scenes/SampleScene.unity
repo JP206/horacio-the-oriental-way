@@ -509,6 +509,7 @@ MonoBehaviour:
   detector: {fileID: 313787120}
   ataque: {fileID: 313787124}
   enemigo: {fileID: 383645644454490435}
+  jugador: {fileID: 313787128}
 --- !u!4 &1682303888
 Transform:
   m_ObjectHideFlags: 0
@@ -796,7 +797,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cooldownAtaques: 2
   golpeDerecha: 1
-  danioJab: 20
+  danioJab: 0
 --- !u!114 &383645644454490430
 MonoBehaviour:
   m_ObjectHideFlags: 0
