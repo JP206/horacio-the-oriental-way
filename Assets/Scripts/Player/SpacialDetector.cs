@@ -4,7 +4,7 @@ public class SpacialDetector : MonoBehaviour
 {
     [SerializeField] float alturaActor;
     [SerializeField] float anchoActor;
-    [SerializeField] LayerMask collisionLayer;
+    [SerializeField] LayerMask collisionLayer, enemigoLayerMask;
 
     //Genera un rayo que apunta a la dirección asignada en el vector
     //Si el raycast detecta desde la posición en la que se encuentra un objeto con el que colisiona
@@ -29,18 +29,26 @@ public class SpacialDetector : MonoBehaviour
         return transform.position.y;
     }
 
-    public VidaEnemigo DetectarEnemigo(float direccion, float lookAhead)
+    public VidaEnemigo DetectarEnemigo(float direction, float lookAhead)
     {
         Vector2 rayOrigin = new Vector2(transform.position.x, transform.position.y);
-        Vector2 rayDirection = Vector2.right * direccion;
+        Vector2 rayDirection = Vector2.right * direction;
 
-        RaycastHit2D hit = Physics2D.Raycast(rayOrigin, rayDirection, anchoActor / 2f + lookAhead, collisionLayer);
-        Debug.DrawRay(rayOrigin, (rayDirection * lookAhead), Color.yellow, 3);
+        // Lanza el Raycast para detectar objetos en la capa especificada
+        RaycastHit2D hit = Physics2D.Raycast(rayOrigin, rayDirection, anchoActor / 2f + lookAhead, enemigoLayerMask);
+        Debug.DrawRay(rayOrigin, (rayDirection * lookAhead), Color.blue, 2);
 
-        if (hit.collider != null)
+        // Verifica si el raycast detectó un objeto y si este objeto tiene el tag "Enemigo"
+        if (hit.collider != null && hit.collider.CompareTag("Enemigo"))
         {
+            // Si el objeto tiene el tag "Enemigo", devuelve el componente VidaEnemigo
             return hit.collider.GetComponent<VidaEnemigo>();
         }
-        else { return null; }
+        else
+        {
+            // Si no se detecta un enemigo, retorna null
+            return null;
+        }
     }
+
 }

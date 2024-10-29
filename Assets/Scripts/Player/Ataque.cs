@@ -31,6 +31,8 @@ public class Ataque : MonoBehaviour
     {
         if (detector.esPiso(0.1f, 0))
         {
+            Debug.Log("dentro de ataque jab");
+
             Jab();
             animator.SetTrigger("jab");
         }
@@ -66,13 +68,11 @@ public class Ataque : MonoBehaviour
         }
     }
 
-
     public void Jab()
     {
         VidaEnemigo vidaEnemigo = detector.DetectarEnemigo(movimientoJugador.direccion, rangoJab);
         if (vidaEnemigo != null && vidaEnemigo.VidaActual() > 0)
         {
-            Debug.Log("DENTRO DE DANIO JAB");
             vidaEnemigo.RecibirDanio(danioJab);
         }
     }

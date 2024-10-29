@@ -10,10 +10,10 @@ public class SceneInitializer : MonoBehaviour
     [SerializeField] Animator animacion;
     [SerializeField] SpacialDetector detector;
     [SerializeField] Ataque ataque;
+    [SerializeField] VidaEnemigo enemigo;
 
     void Start()
     {
-        Physics2D.IgnoreCollision(collider1, collider2);
         movimientoJugador.InitializeReferences(detector, animacion);
         salto.InitializeReferences(detector, movimientoJugador, animacion);
         ataque.InitializeReferences(animacion, detector, movimientoJugador);

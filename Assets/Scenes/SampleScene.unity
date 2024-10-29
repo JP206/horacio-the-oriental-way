@@ -154,7 +154,10 @@ MonoBehaviour:
   anchoActor: 2
   collisionLayer:
     serializedVersion: 2
-    m_Bits: 320
+    m_Bits: 64
+  enemigoLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!114 &313787121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,7 +233,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.13103437, y: -0.038336158}
@@ -505,6 +508,7 @@ MonoBehaviour:
   animacion: {fileID: 313787117}
   detector: {fileID: 313787120}
   ataque: {fileID: 313787124}
+  enemigo: {fileID: 383645644454490435}
 --- !u!4 &1682303888
 Transform:
   m_ObjectHideFlags: 0
@@ -673,6 +677,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2042242722982252394, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+      propertyPath: m_TagString
+      value: Enemigo
+      objectReference: {fileID: 0}
     - target: {fileID: 7140070362124781726, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: m_FlipX
       value: 1
@@ -738,7 +746,7 @@ PrefabInstance:
       addedObject: {fileID: 383645644454490435}
     - targetCorrespondingSourceObject: {fileID: 2042242722982252394, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 383645644454490434}
+      addedObject: {fileID: 383645644454490439}
   m_SourcePrefab: {fileID: 100100000, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
 --- !u!1 &383645644454490423 stripped
 GameObject:
@@ -801,7 +809,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ea01303c47e8724882bf04e0f1bc4af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!70 &383645644454490434
+--- !u!114 &383645644454490435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383645644454490423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7faf802ddb7a5324bbf974efd339c817, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaMaximaEnemigoGris: 50
+--- !u!70 &383645644454490439
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -830,25 +851,12 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.117307186, y: -0.07993448}
-  m_Size: {x: 1.6361027, y: 2.7120593}
+  m_Offset: {x: -0.048923135, y: -0.071736336}
+  m_Size: {x: 1.5893714, y: 2.6655169}
   m_Direction: 0
---- !u!114 &383645644454490435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 383645644454490423}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7faf802ddb7a5324bbf974efd339c817, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vidaMaximaEnemigoGris: 50
 --- !u!1001 &942103363208304356
 PrefabInstance:
   m_ObjectHideFlags: 0
