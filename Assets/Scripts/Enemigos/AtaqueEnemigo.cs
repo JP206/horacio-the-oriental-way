@@ -6,18 +6,31 @@ public class AtaqueEnemigo : MonoBehaviour
 {
     [SerializeField] float cooldownAtaques;
     [SerializeField] bool golpeDerecha;
+    [SerializeField] int danioJab = 20;
 
     Animator animator;
+    VidaJugador vidaJugador;
+
     bool puedeAtacar = true; // Especie de semaforo para permitir atacar si se llama varias veces Ataque()
     
-    public void InitializeReferences(Animator _animator)
+    public void InitializeReferences(Animator _animator, VidaJugador _vidaJugador)
     {
         animator = _animator;
+        vidaJugador = _vidaJugador;
     }
 
     public void Ataque()
     {
-        if (golpeDerecha && puedeAtacar) StartCoroutine(ataque());
+        if (golpeDerecha && puedeAtacar) {
+            StartCoroutine(ataque());
+
+            //Debug.Log("dentro de vidaJugador " + vidaJugador);
+            //if (vidaJugador.VidaActual() > 0)
+            //{
+            //    Debug.Log("dentro de ataque vidaJugador");
+            //    vidaJugador.RecibirDanio(danioJab);
+            //}
+        }
     }
 
     IEnumerator ataque()

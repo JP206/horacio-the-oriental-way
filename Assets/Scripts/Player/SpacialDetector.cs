@@ -26,7 +26,21 @@ public class SpacialDetector : MonoBehaviour
             // Ajusto la posición Y restando una pequeña cantidad para asegurar que el personaje toque el suelo
             return hit.point.y + (alturaActor / 2f);
         }
-
         return transform.position.y;
+    }
+
+    public VidaEnemigo DetectarEnemigo(float direccion, float lookAhead)
+    {
+        Vector2 rayOrigin = new Vector2(transform.position.x, transform.position.y);
+        Vector2 rayDirection = Vector2.right * direccion;
+
+        RaycastHit2D hit = Physics2D.Raycast(rayOrigin, rayDirection, anchoActor / 2f + lookAhead, collisionLayer);
+        Debug.DrawRay(rayOrigin, (rayDirection * lookAhead), Color.yellow, 3);
+
+        if (hit.collider != null)
+        {
+            return hit.collider.GetComponent<VidaEnemigo>();
+        }
+        else { return null; }
     }
 }

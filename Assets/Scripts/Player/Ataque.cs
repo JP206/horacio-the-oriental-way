@@ -6,18 +6,24 @@ public class Ataque : MonoBehaviour
 {
     Animator animator;
     SpacialDetector detector;
+    Movimiento movimientoJugador;
 
     [SerializeField] public float rangoPatada = 3f;
     [SerializeField] public float rangoJab = 2f;
     [SerializeField] int danioPatada = 20;
     [SerializeField] int danioJab = 10;
-    [SerializeField] int danioFlyingKick = 20;
+    [SerializeField] int danioFlyingKick = 40;
     [SerializeField] int danioSpecialKick = 50;
 
-    public void InitializeReferences(Animator animator, SpacialDetector detector)
+    public void InitializeReferences(
+        Animator animator, 
+        SpacialDetector detector,
+        Movimiento movimientoJugador
+        )
     {
         this.animator = animator;
         this.detector = detector;
+        this.movimientoJugador = movimientoJugador;
     }
 
     // Activo Trigger Jab
@@ -60,24 +66,41 @@ public class Ataque : MonoBehaviour
         }
     }
 
-    // Metodos para Detectar enemigos?? -- Agregar lo necesario
+
     public void Jab()
     {
-        Debug.Log("Dentro de Jab");
+        VidaEnemigo vidaEnemigo = detector.DetectarEnemigo(movimientoJugador.direccion, rangoJab);
+        if (vidaEnemigo != null && vidaEnemigo.VidaActual() > 0)
+        {
+            Debug.Log("DENTRO DE DANIO JAB");
+            vidaEnemigo.RecibirDanio(danioJab);
+        }
     }
 
     public void HighKick()
     {
-        Debug.Log("Dentro de HighKick");
+        VidaEnemigo vidaEnemigo = detector.DetectarEnemigo(movimientoJugador.direccion, rangoPatada);
+        if (vidaEnemigo != null && vidaEnemigo.VidaActual() > 0)
+        {
+            vidaEnemigo.RecibirDanio(danioPatada);
+        }
     }
 
     public void SpecialKick()
     {
-        Debug.Log("Dentro de Special Kick");
+        VidaEnemigo vidaEnemigo = detector.DetectarEnemigo(movimientoJugador.direccion, rangoPatada);
+        if (vidaEnemigo != null && vidaEnemigo.VidaActual() > 0)
+        {
+            vidaEnemigo.RecibirDanio(danioSpecialKick);
+        }
     }
 
     public void FlyingKick()
     {
-        Debug.Log("Dentro de Flying Kick");
+        VidaEnemigo vidaEnemigo = detector.DetectarEnemigo(movimientoJugador.direccion, rangoPatada);
+        if (vidaEnemigo != null && vidaEnemigo.VidaActual() > 0)
+        {
+            vidaEnemigo.RecibirDanio(danioFlyingKick);
+        }
     }
 }

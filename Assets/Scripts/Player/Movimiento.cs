@@ -14,6 +14,7 @@ public class Movimiento : MonoBehaviour
     float yVelocidad;
     float deltaX => xVelocidad * Time.fixedDeltaTime;
     float deltaY => yVelocidad * Time.fixedDeltaTime;
+    public float direccion => playerRenderer.flipX ? -1 : 1;
     public void InitializeReferences(SpacialDetector detector, Animator animator)
     {
         this.detector = detector;

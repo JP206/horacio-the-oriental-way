@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,19 +13,21 @@ public class SceneInitializer : MonoBehaviour
 
     void Start()
     {
+        Physics2D.IgnoreCollision(collider1, collider2);
         movimientoJugador.InitializeReferences(detector, animacion);
         salto.InitializeReferences(detector, movimientoJugador, animacion);
-        ataque.InitializeReferences(animacion, detector);
+        ataque.InitializeReferences(animacion, detector, movimientoJugador);
+
     }
 
     //Activo el movimiento X del script Movimiento (Jugador)
     public void MovimientoEnX(float xValue) { movimientoJugador.MovimientoX(xValue); }
     public void Salto() { salto.Saltando(); }
 
-    // Llamo al método de Ataque (Jab)
+    // Llamo al mÃ©todo de Ataque (Jab)
     public void OnJab() { ataque.AtaqueJab(); }
 
-    // Llamo al método de Ataque (High Kick)
+    // Llamo al mÃ©todo de Ataque (High Kick)
     public void OnHighKick() { ataque.AtaqueHighKick(); }
 
     // Llamo al metodo de Ataque (Special Kkick)

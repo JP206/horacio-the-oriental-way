@@ -10,6 +10,7 @@ public class EnemyInitializer : MonoBehaviour
     Animator animator;
     GameObject jugador;
     SpriteRenderer spriteRenderer;
+    VidaJugador vidaJugador;
 
     void Start()
     {
@@ -20,7 +21,10 @@ public class EnemyInitializer : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         jugador = GameObject.FindWithTag("Player");
 
-        ataqueEnemigo.InitializeReferences(animator);
+        vidaJugador = jugador.GetComponent<VidaJugador>();
+        Debug.Log("vidaJugador asignado: " + vidaJugador);
+
+        ataqueEnemigo.InitializeReferences(animator, vidaJugador);
         enemySpatialDetector.InitializeReferences(ataqueEnemigo, movimientoEnemigo, jugador);
         movimientoEnemigo.InitializeReferences(animator, spriteRenderer);
     }

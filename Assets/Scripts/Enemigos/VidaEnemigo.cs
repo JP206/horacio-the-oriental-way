@@ -1,15 +1,17 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class VidaJugador : MonoBehaviour
+public class VidaEnemigo : MonoBehaviour
 {
     // Propiedades de la vida del jugador
-    public int vidaMaxima = 100; 
+    public int vidaMaximaEnemigoGris = 20;
     private int vidaActual;
 
     public int VidaActual()
     {
         // Inicializamos la vida al valor máximo al comenzar
-        vidaActual = vidaMaxima;
+        vidaActual = vidaMaximaEnemigoGris;
         return vidaActual;
     }
 
@@ -18,7 +20,7 @@ public class VidaJugador : MonoBehaviour
     {
         VidaActual();
         vidaActual -= danio;
-        vidaMaxima = vidaActual;
+        vidaMaximaEnemigoGris = vidaActual;
 
         // Verificamos si la vida llega a cero o menos
         if (vidaActual <= 0)
@@ -30,6 +32,6 @@ public class VidaJugador : MonoBehaviour
     // Método para manejar la muerte del jugador
     private void Muerte()
     {
-        Debug.Log("El jugador ha muerto.");
+        Debug.Log("El vidaMaximaEnemigoGris ha muerto.");
     }
 }

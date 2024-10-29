@@ -154,7 +154,7 @@ MonoBehaviour:
   anchoActor: 2
   collisionLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 320
 --- !u!114 &313787121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,7 +210,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 313787116}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f8277d1cf9c0abb4dbde5ed5f3fe0039, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -233,9 +233,22 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.094231606, y: 0.020940185}
-  m_Size: {x: 1.1491089, y: 2.635875}
+  m_Offset: {x: 0.13103437, y: -0.038336158}
+  m_Size: {x: 1.5996408, y: 2.7544277}
   m_Direction: 0
+--- !u!114 &313787128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313787116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83454b5b536a97b40990d83b8c08bcae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaMaxima: 100
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -654,7 +667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2042242722982252394, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2042242722982252394, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: m_IsActive
@@ -720,6 +733,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2042242722982252394, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 383645644454490430}
+    - targetCorrespondingSourceObject: {fileID: 2042242722982252394, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 383645644454490435}
+    - targetCorrespondingSourceObject: {fileID: 2042242722982252394, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 383645644454490434}
   m_SourcePrefab: {fileID: 100100000, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
 --- !u!1 &383645644454490423 stripped
 GameObject:
@@ -741,7 +760,7 @@ MonoBehaviour:
   collisionLayer:
     serializedVersion: 2
     m_Bits: 128
-  rayLength: 2
+  rayLength: 1.5
 --- !u!114 &383645644454490425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -767,8 +786,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d30fb59d848ea649af18dd053dff27d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldownAtaques: 3
+  cooldownAtaques: 2
   golpeDerecha: 1
+  danioJab: 20
 --- !u!114 &383645644454490430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -781,6 +801,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ea01303c47e8724882bf04e0f1bc4af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!70 &383645644454490434
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383645644454490423}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: f8277d1cf9c0abb4dbde5ed5f3fe0039, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.117307186, y: -0.07993448}
+  m_Size: {x: 1.6361027, y: 2.7120593}
+  m_Direction: 0
+--- !u!114 &383645644454490435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383645644454490423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7faf802ddb7a5324bbf974efd339c817, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaMaximaEnemigoGris: 50
 --- !u!1001 &942103363208304356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -865,6 +933,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4631036899367573231, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 313787124}
+    - targetCorrespondingSourceObject: {fileID: 4631036899367573231, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 313787128}
     - targetCorrespondingSourceObject: {fileID: 4631036899367573231, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 313787126}
