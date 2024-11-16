@@ -6,7 +6,6 @@ public class SceneInitializer : MonoBehaviour
 {
     //Importacion de Scripts para inicializar el juego
     [SerializeField] Movimiento movimientoJugador;
-    [SerializeField] Salto salto;
     [SerializeField] Animator animacion;
     [SerializeField] SpacialDetector detector;
     [SerializeField] Ataque ataque;
@@ -14,15 +13,12 @@ public class SceneInitializer : MonoBehaviour
     [SerializeField] VidaJugador jugador;
     void Start()
     {
-        movimientoJugador.InitializeReferences(detector, animacion);
-        salto.InitializeReferences(detector, movimientoJugador, animacion);
         ataque.InitializeReferences(animacion, detector, movimientoJugador);
         jugador.InitializeReferences(animacion);
     }
 
     //Activo el movimiento X del script Movimiento (Jugador)
-    public void MovimientoEnX(float xValue) { movimientoJugador.MovimientoX(xValue); }
-    public void Salto() { salto.Saltando(); }
+    public void MovimientoEnX(float xValue) { movimientoJugador.DetectarEjeX(xValue); }
 
     // Llamo al método de Ataque (Jab)
     public void OnJab() { ataque.AtaqueJab(); }
@@ -32,7 +28,4 @@ public class SceneInitializer : MonoBehaviour
 
     // Llamo al metodo de Ataque (Special Kkick)
     public void OnSpecialKick() { ataque.AtaqueSpecialKick(); }
-
-    // Llamo al metodo de Ataque (Special Kick)
-    public void OnFlyingKick() { ataque.AtaqueFlyingKick(); }
 }

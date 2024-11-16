@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class VidaJugador : MonoBehaviour
@@ -14,7 +15,6 @@ public class VidaJugador : MonoBehaviour
 
     public int VidaActual()
     {
-        Debug.Log("vidaActual: " + vidaActual);
         // Inicializamos la vida al valor máximo al comenzar
         vidaActual = vidaMaxima;
         return vidaActual;
@@ -27,6 +27,8 @@ public class VidaJugador : MonoBehaviour
         vidaActual -= danio;
         vidaMaxima = vidaActual;
 
+        StartCoroutine(EjecutarGolpeCabeza());
+        
         // Verificamos si la vida llega a cero o menos
         if (vidaActual <= 0)
         {
@@ -39,4 +41,12 @@ public class VidaJugador : MonoBehaviour
     {
         Debug.Log("El jugador ha muerto.");
     }
+
+    IEnumerator EjecutarGolpeCabeza()
+    {
+        yield return new WaitForSeconds(0.2f);
+        animator.SetTrigger("golpeEnCabeza");
+
+    }
+
 }

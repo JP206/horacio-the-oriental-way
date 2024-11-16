@@ -8,7 +8,6 @@ public class InputManager : MonoBehaviour
     void Update()
     {
         initializer.MovimientoEnX(DetectarMovimientoHorizontal());
-        DetectarInputSalto();
         DetectarAtaque();
     }
 
@@ -18,16 +17,10 @@ public class InputManager : MonoBehaviour
         return Input.GetAxisRaw("Horizontal");
     }
 
-    void DetectarInputSalto()
-    {
-        if (Input.GetButtonDown("Jump")) { initializer.Salto(); }
-    }
-
     void DetectarAtaque()
     {
         if (Input.GetButtonDown("Jab")) { initializer.OnJab(); } // Boton X
         if (Input.GetButtonDown("HighKick")) { initializer.OnHighKick(); } // Boton Z
         if (Input.GetButtonDown("SpecialKick")) { initializer.OnSpecialKick(); } // Boton C
-        if (Input.GetButtonDown("FlyingKick")) { initializer.OnFlyingKick(); } // Boton Left Control
     }
 }
