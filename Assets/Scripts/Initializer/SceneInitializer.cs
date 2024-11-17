@@ -11,9 +11,11 @@ public class SceneInitializer : MonoBehaviour
     [SerializeField] Ataque ataque;
     [SerializeField] VidaEnemigo enemigo;
     [SerializeField] VidaJugador jugador;
+    [SerializeField] AttackDetector attackDetector;
     void Start()
     {
-        ataque.InitializeReferences(animacion, detector, movimientoJugador);
+        ataque.InitializeReferences(animacion, attackDetector);
+        attackDetector.InitializeReferences(enemigo);
         jugador.InitializeReferences(animacion);
     }
 
@@ -26,6 +28,9 @@ public class SceneInitializer : MonoBehaviour
     // Llamo al método de Ataque (High Kick)
     public void OnHighKick() { ataque.AtaqueHighKick(); }
 
-    // Llamo al metodo de Ataque (Special Kkick)
+    // Llamo al metodo de Ataque (Special Kick)
     public void OnSpecialKick() { ataque.AtaqueSpecialKick(); }
+
+    //Llamo al metodo de ataque (LowKick)
+    public void OnLowKick() { ataque.AtaqueLowKick(); }
 }

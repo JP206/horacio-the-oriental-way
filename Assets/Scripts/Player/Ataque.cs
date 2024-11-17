@@ -5,42 +5,46 @@ using UnityEngine;
 public class Ataque : MonoBehaviour
 {
     Animator animator;
-    SpacialDetector detector;
-    Movimiento movmientoJugador;
+    AttackDetector attackDetector;
 
     [SerializeField] public float rangoPatada = 3f;
     [SerializeField] public float rangoJab = 2f;
     [SerializeField] int danioPatada = 20;
     [SerializeField] int danioJab = 10;
+    [SerializeField] int daniolowlKick = 20;
     [SerializeField] int danioSpecialKick = 50;
 
-    public void InitializeReferences(
-        Animator animator, 
-        SpacialDetector detector,
-        Movimiento movmientoJugador
-        )
+    public void InitializeReferences(Animator animator, AttackDetector attackDetector)
     {
         this.animator = animator;
-        this.detector = detector;
-        this.movmientoJugador = movmientoJugador;
+        this.attackDetector = attackDetector;
     }
 
-    // Activo Trigger Jab
+    // Método para realizar el ataque Jab
     public void AtaqueJab()
     {
-        detector.DetectarEnemigo(movmientoJugador.direccionActual, rangoJab);
         animator.SetTrigger("jab");
+        attackDetector.HighCollider(danioJab); 
     }
 
-    // Activo Trigger High Kick
+    // Método para realizar el ataque High Kick
     public void AtaqueHighKick()
     {
         animator.SetTrigger("highKick");
+        attackDetector.HighCollider(danioPatada);
     }
 
-    // Activo Trigger Special Kick
+    // Método para realizar el ataque Special Kick
     public void AtaqueSpecialKick()
     {
         animator.SetTrigger("specialKick");
+        attackDetector.ChestCollider(danioSpecialKick);
+    }
+
+    // Método para realizar el ataque Special Kick
+    public void AtaqueLowKick()
+    {
+        animator.SetTrigger("lowKick");
+        attackDetector.LowCollider(daniolowlKick);
     }
 }

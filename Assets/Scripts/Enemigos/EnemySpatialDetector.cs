@@ -23,11 +23,11 @@ public class EnemySpatialDetector : MonoBehaviour
         Vector2 direccion = transform.position.x - jugador.transform.position.x > 0 ? Vector2.left : Vector2.right;
         RaycastHit2D hit = Physics2D.Raycast(transform.position, direccion, rayLength, collisionLayer);
         Debug.DrawRay(transform.position, direccion * rayLength, Color.red);
-        
+
         if (hit.collider != null)
         {
             movimientoEnemigo.MovimientoX(0);
-            
+
             if (hit.collider.CompareTag("Player"))
             {
                 ataqueEnemigo.Ataque();

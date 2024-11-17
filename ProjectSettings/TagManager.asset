@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemigo
+  - CabezaEnemigo
+  - TorsoEnemigo
+  - PiernasEnemigo
   layers:
   - Default
   - TransparentFX
@@ -15,9 +18,9 @@ TagManager:
   - Piso
   - Jugador
   - Enemigo
-  - 
-  - 
-  - 
+  - CabezaEnemigo
+  - TorsoEnemigo
+  - PiernasEnemigo
   - 
   - 
   - 
