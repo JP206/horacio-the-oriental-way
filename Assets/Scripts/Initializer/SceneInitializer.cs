@@ -15,7 +15,6 @@ public class SceneInitializer : MonoBehaviour
     void Start()
     {
         ataque.InitializeReferences(animacion, attackDetector);
-        attackDetector.InitializeReferences(enemigo);
         jugador.InitializeReferences(animacion);
     }
 

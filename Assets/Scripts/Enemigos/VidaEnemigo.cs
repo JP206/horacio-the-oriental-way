@@ -9,9 +9,9 @@ public class VidaEnemigo : MonoBehaviour
     Animator animator;
     private SpriteRenderer spriteRenderer;
 
-    [SerializeField] private float duracionTintineo = 2f; 
-    [SerializeField] private float intervaloTintineo = 0.1f; 
-    [SerializeField] private float tiempoAntesDeTintinear = 1f; 
+    [SerializeField] private float duracionTintineo = 2f;
+    [SerializeField] private float intervaloTintineo = 0.1f;
+    [SerializeField] private float tiempoAntesDeTintinear = 1f;
 
     public void InitializeReferences(Animator animator)
     {
@@ -35,6 +35,7 @@ public class VidaEnemigo : MonoBehaviour
         if (typoDanio == "high") { animator.SetTrigger("hitCabeza"); }
         else if (typoDanio == "chest") { animator.SetTrigger("hitPecho"); }
         else if (typoDanio == "low") { animator.SetTrigger("hitPiernas"); }
+
         // Checkeo si el enemigo tiene vida 0
         if (vidaActual <= 0) { Muerte(); }
     }
@@ -47,8 +48,23 @@ public class VidaEnemigo : MonoBehaviour
         // Activa la animación de muerte
         animator.SetTrigger("estaMuerto");
 
+        // Desactiva todos los colliders hijos
+        DesactivarColliders();
+
         // Inicia la corrutina para el tintineo y destrucción
         StartCoroutine(TintinearYDestruir());
+    }
+
+    private void DesactivarColliders()
+    {
+        // Obtiene todos los colliders del objeto y sus hijos
+        Collider2D[] colliders = GetComponentsInChildren<Collider2D>();
+
+        foreach (var col in colliders)
+        {
+            // Desactiva cada collider
+            col.enabled = false; 
+        }
     }
 
     private IEnumerator TintinearYDestruir()

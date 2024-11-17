@@ -8,17 +8,9 @@ public class AttackDetector : MonoBehaviour
     [SerializeField] private Transform middleRayOrigin;
     [SerializeField] private Transform lowRayOrigin;
 
-    VidaEnemigo enemigo;
-
-    public void InitializeReferences(VidaEnemigo enemigo)
-    {
-        this.enemigo = enemigo;
-    }
-
     // Método para detectar un enemigo con un Raycast
     public void HighCollider(int danio)
     {
-        // Dirección del rayo (basado en la orientación del personaje)
         Vector2 direction = transform.localScale.x > 0 ? Vector2.right : Vector2.left;
 
         // Lanza el Raycast
@@ -28,12 +20,14 @@ public class AttackDetector : MonoBehaviour
         Debug.DrawRay(highRayOrigin.position, direction * rayLength, Color.red, 0.5f);
 
         // Verifica si golpea algo
-        if (hit.collider != null)
+        if (hit.collider != null && hit.collider.CompareTag("CabezaEnemigo"))
         {
-            // Comprueba si es el collider específico "CabezaEnemigo"
-            if (hit.collider.CompareTag("CabezaEnemigo"))
+            // Busca el componente VidaEnemigo en el objeto golpeado
+            VidaEnemigo enemigoGolpeado = hit.collider.GetComponentInParent<VidaEnemigo>();
+
+            if (enemigoGolpeado != null)
             {
-                enemigo.RecibirDanio(danio, "high");
+                enemigoGolpeado.RecibirDanio(danio, "high");
             }
         }
     }
@@ -46,11 +40,13 @@ public class AttackDetector : MonoBehaviour
 
         Debug.DrawRay(middleRayOrigin.position, direction * rayLength, Color.blue, 0.5f);
 
-        if (hit.collider != null)
+        if (hit.collider != null && hit.collider.CompareTag("TorsoEnemigo"))
         {
-            if (hit.collider.CompareTag("TorsoEnemigo"))
+            VidaEnemigo enemigoGolpeado = hit.collider.GetComponentInParent<VidaEnemigo>();
+
+            if (enemigoGolpeado != null)
             {
-                enemigo.RecibirDanio(danio, "chest");
+                enemigoGolpeado.RecibirDanio(danio, "chest");
             }
         }
     }
@@ -63,11 +59,13 @@ public class AttackDetector : MonoBehaviour
 
         Debug.DrawRay(lowRayOrigin.position, direction * rayLength, Color.black, 0.5f);
 
-        if (hit.collider != null)
+        if (hit.collider != null && hit.collider.CompareTag("PiernasEnemigo"))
         {
-            if (hit.collider.CompareTag("PiernasEnemigo"))
+            VidaEnemigo enemigoGolpeado = hit.collider.GetComponentInParent<VidaEnemigo>();
+
+            if (enemigoGolpeado != null)
             {
-                enemigo.RecibirDanio(danio, "low");
+                enemigoGolpeado.RecibirDanio(danio, "low");
             }
         }
     }
