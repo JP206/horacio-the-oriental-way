@@ -46,7 +46,7 @@ public class VidaJugador : MonoBehaviour
     // Método para manejar la muerte del jugador
     private void Muerte()
     {
-        StopAllCoroutines();
+        StopAllCoroutines(); //por si quedo un EjecutarGolpeCabeza corriendo, puede interrumpir la animacion de muerte
         inputManager.HoracioVivo(false);
         animator.SetTrigger("Caida");
     }
