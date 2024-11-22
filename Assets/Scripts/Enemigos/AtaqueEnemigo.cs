@@ -6,7 +6,7 @@ public class AtaqueEnemigo : MonoBehaviour
 {
     [SerializeField] float cooldownAtaques;
     [SerializeField] bool golpeDerecha;
-    [SerializeField] int danioJab = 20;
+    [SerializeField] int danioJab;
 
     Animator animator;
     VidaJugador vidaJugador;
@@ -21,20 +21,16 @@ public class AtaqueEnemigo : MonoBehaviour
 
     public void Ataque()
     {
-        if (golpeDerecha && puedeAtacar) {
+        if (golpeDerecha && puedeAtacar && vidaJugador.VidaActual() > 0) {
             StartCoroutine(ataque());
-
-            if (vidaJugador.VidaActual() > 0)
-            {
-                vidaJugador.RecibirDanio(danioJab);
-            }
+            puedeAtacar = false;
+            animator.SetTrigger("golpeDerecha");
+            vidaJugador.RecibirDanio(danioJab);
         }
     }
 
     IEnumerator ataque()
     {
-        puedeAtacar = false;
-        animator.SetTrigger("golpeDerecha");
         yield return new WaitForSeconds(cooldownAtaques);
         puedeAtacar = true;
     }

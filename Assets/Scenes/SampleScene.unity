@@ -283,9 +283,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1088607072360500233, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+      propertyPath: danioJab
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088607072360500233, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+      propertyPath: golpeDerecha
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2042242722982252394, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: m_Name
       value: Enemigo1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6949768710231435025, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+      propertyPath: vidaMaximaEnemigoGris
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7664993283350385622, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -368,6 +380,7 @@ MonoBehaviour:
   enemigo: {fileID: 383645644454490435}
   jugador: {fileID: 313787128}
   attackDetector: {fileID: 313787130}
+  inputManager: {fileID: 1820743875}
 --- !u!4 &1682303888
 Transform:
   m_ObjectHideFlags: 0
@@ -520,9 +533,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1088607072360500233, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+      propertyPath: danioJab
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088607072360500233, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+      propertyPath: golpeDerecha
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2042242722982252394, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: m_Name
       value: Enemigo1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6949768710231435025, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+      propertyPath: vidaMaximaEnemigoGris
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7140070362124781726, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: m_FlipX
@@ -581,9 +606,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1088607072360500233, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+      propertyPath: danioJab
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088607072360500233, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+      propertyPath: golpeDerecha
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2042242722982252394, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: m_Name
       value: Enemigo1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6949768710231435025, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+      propertyPath: vidaMaximaEnemigoGris
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7664993283350385622, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -649,6 +686,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1219433876032570239, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
+      propertyPath: danioJab
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1219433876032570239, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
+      propertyPath: danioPatada
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1219433876032570239, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
+      propertyPath: daniolowlKick
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1219433876032570239, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
+      propertyPath: danioSpecialKick
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515770078778651653, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2550695529436692281, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
+      propertyPath: vidaMaxima
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4140858533077958233, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.51

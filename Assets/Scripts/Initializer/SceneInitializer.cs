@@ -12,10 +12,12 @@ public class SceneInitializer : MonoBehaviour
     [SerializeField] VidaEnemigo enemigo;
     [SerializeField] VidaJugador jugador;
     [SerializeField] AttackDetector attackDetector;
+    [SerializeField] InputManager inputManager;
+
     void Start()
     {
         ataque.InitializeReferences(animacion, attackDetector);
-        jugador.InitializeReferences(animacion);
+        jugador.InitializeReferences(animacion, inputManager);
     }
 
     //Activo el movimiento X del script Movimiento (Jugador)
