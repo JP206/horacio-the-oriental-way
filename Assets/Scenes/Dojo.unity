@@ -352,6 +352,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63aa391e1ac66c646931008d9a74d6ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &313787134 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8070356030778445948, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
+  m_PrefabInstance: {fileID: 942103363208304356}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &313787135 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7308924125609590875, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
+  m_PrefabInstance: {fileID: 942103363208304356}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0326b82d67ad05f4d92b435bbe005830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &427713359
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,10 +592,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1433706216}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000091553, y: -0.000015259}
-  m_SizeDelta: {x: 953, y: 536}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &985268906
 MonoBehaviour:
@@ -771,6 +787,8 @@ MonoBehaviour:
   jugador: {fileID: 313787128}
   attackDetector: {fileID: 313787130}
   inputManager: {fileID: 1820743875}
+  sonidoGolpe: {fileID: 313787135}
+  audioSourceHoracio: {fileID: 313787134}
 --- !u!4 &1682303888
 Transform:
   m_ObjectHideFlags: 0
@@ -1216,58 +1234,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 307378192130120696, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
-      propertyPath: rayLength
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1219433876032570239, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
-      propertyPath: danioJab
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1219433876032570239, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
-      propertyPath: danioPatada
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1219433876032570239, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
-      propertyPath: daniolowlKick
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1219433876032570239, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
-      propertyPath: danioSpecialKick
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1515770078778651653, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
     - target: {fileID: 2550695529436692281, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
       propertyPath: fadeCanvas
       value: 
       objectReference: {fileID: 1433706220}
-    - target: {fileID: 2550695529436692281, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
-      propertyPath: vidaMaxima
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2550695529436692281, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
-      propertyPath: fadeDuration
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2550695529436692281, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
-      propertyPath: gameOverSceneName
-      value: GameOver
-      objectReference: {fileID: 0}
-    - target: {fileID: 4140858533077958233, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4140858533077958233, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4140858533077958233, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
-      objectReference: {fileID: 0}
     - target: {fileID: 4140858533077958233, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.34

@@ -8,6 +8,13 @@ public class AttackDetector : MonoBehaviour
     [SerializeField] private Transform middleRayOrigin;
     [SerializeField] private Transform lowRayOrigin;
 
+    SonidoGolpe sonidoGolpe;
+
+    public void InitializeReferences(SonidoGolpe sonidoGolpe)
+    {
+        this.sonidoGolpe = sonidoGolpe;
+    }
+
     // Método para detectar un enemigo con un Raycast
     public void HighCollider(int danio)
     {
@@ -28,6 +35,7 @@ public class AttackDetector : MonoBehaviour
             if (enemigoGolpeado != null)
             {
                 enemigoGolpeado.RecibirDanio(danio, "high");
+                sonidoGolpe.HighSound();
             }
         }
     }
@@ -47,6 +55,7 @@ public class AttackDetector : MonoBehaviour
             if (enemigoGolpeado != null)
             {
                 enemigoGolpeado.RecibirDanio(danio, "chest");
+                sonidoGolpe.ChestSound();
             }
         }
     }
@@ -66,6 +75,7 @@ public class AttackDetector : MonoBehaviour
             if (enemigoGolpeado != null)
             {
                 enemigoGolpeado.RecibirDanio(danio, "low");
+                sonidoGolpe.LowSound();
             }
         }
     }
