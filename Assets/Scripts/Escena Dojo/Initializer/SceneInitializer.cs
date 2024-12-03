@@ -15,11 +15,12 @@ public class SceneInitializer : MonoBehaviour
     [SerializeField] InputManager inputManager;
     [SerializeField] SonidoGolpe sonidoGolpe;
     [SerializeField] AudioSource audioSourceHoracio;
+    [SerializeField] SpriteRenderer spriteRendererHoracio;
 
     void Start()
     {
         ataque.InitializeReferences(animacion, attackDetector);
-        jugador.InitializeReferences(animacion, inputManager);
+        jugador.InitializeReferences(animacion, inputManager, spriteRendererHoracio);
         attackDetector.InitializeReferences(sonidoGolpe);
         sonidoGolpe.InitializeReferences(audioSourceHoracio);
     }

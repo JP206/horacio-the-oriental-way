@@ -1,11 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InputManager : MonoBehaviour
 {
     [SerializeField] SceneInitializer initializer;
     bool horacioVivo = true;
+    [SerializeField]
+    Button botonBajoDerecha, botonBajoIzquierda, botonMedioDerecha, botonMedioIzquierda,
+        botonAltoDerecha, botonAltoIzquierda, botonEspecial;
+
+    void Start()
+    {
+        botonBajoDerecha.onClick.AddListener(BajoDerecha);
+        botonBajoIzquierda.onClick.AddListener(BajoIzquierda);
+
+        botonMedioDerecha.onClick.AddListener(MedioDerecha);
+        botonMedioIzquierda.onClick.AddListener(MedioIzquierda);
+
+        botonAltoDerecha.onClick.AddListener(AltoDerecha);
+        botonAltoIzquierda.onClick.AddListener(AltoIzquierda);
+
+        botonEspecial.onClick.AddListener(AtaqueEspecial);
+    }
 
     void Update()
     {
@@ -33,5 +51,46 @@ public class InputManager : MonoBehaviour
     public void HoracioVivo(bool vivo)
     {
         horacioVivo = vivo;
+    }
+
+    void BajoDerecha()
+    {
+        initializer.MovimientoEnX(1);
+        initializer.OnLowKick();
+    }
+
+    void BajoIzquierda()
+    {
+        initializer.MovimientoEnX(-1);
+        initializer.OnLowKick();
+    }
+
+    void MedioDerecha()
+    {
+        initializer.MovimientoEnX(1);
+        initializer.OnHighKick();
+    }
+
+    void MedioIzquierda()
+    {
+        initializer.MovimientoEnX(-1);
+        initializer.OnHighKick();
+    }
+
+    void AltoDerecha()
+    {
+        initializer.MovimientoEnX(1);
+        initializer.OnJab();
+    }
+
+    void AltoIzquierda()
+    {
+        initializer.MovimientoEnX(-1);
+        initializer.OnJab();
+    }
+
+    void AtaqueEspecial()
+    {
+        initializer.OnSpecialKick();
     }
 }

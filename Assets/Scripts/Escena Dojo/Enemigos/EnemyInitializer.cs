@@ -12,6 +12,7 @@ public class EnemyInitializer : MonoBehaviour
     SpriteRenderer spriteRenderer;
     VidaJugador vidaJugador;
     VidaEnemigo vidaEnemigo;
+    AudioSource audioSource;
 
     void Start()
     {
@@ -21,11 +22,12 @@ public class EnemyInitializer : MonoBehaviour
         vidaEnemigo = GetComponent<VidaEnemigo>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        jugador = GameObject.FindWithTag("Player");
+        audioSource = GetComponent<AudioSource>();
 
+        jugador = GameObject.FindWithTag("Player");
         vidaJugador = jugador.GetComponent<VidaJugador>();
 
-        ataqueEnemigo.InitializeReferences(animator, vidaJugador);
+        ataqueEnemigo.InitializeReferences(animator, vidaJugador, audioSource);
         enemySpatialDetector.InitializeReferences(ataqueEnemigo, movimientoEnemigo, jugador);
         movimientoEnemigo.InitializeReferences(animator, spriteRenderer);
         vidaEnemigo.InitializeReferences(animator);

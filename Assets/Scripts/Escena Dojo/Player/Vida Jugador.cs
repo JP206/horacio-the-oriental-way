@@ -6,6 +6,7 @@ public class VidaJugador : MonoBehaviour
 {
     Animator animator;
     InputManager inputManager;
+    SpriteRenderer spriteRenderer;
 
     // Propiedades de la vida del jugador
     public int vidaMaxima;
@@ -17,10 +18,11 @@ public class VidaJugador : MonoBehaviour
     [SerializeField] private float fadeDuration = 2f;
     [SerializeField] private string gameOverSceneName = "GameOver";
 
-    public void InitializeReferences(Animator animator, InputManager inputManager)
+    public void InitializeReferences(Animator animator, InputManager inputManager, SpriteRenderer spriteRenderer)
     {
         this.animator = animator;
         this.inputManager = inputManager;
+        this.spriteRenderer = spriteRenderer;
 
         vidaActual = vidaMaxima;
     }
@@ -51,6 +53,7 @@ public class VidaJugador : MonoBehaviour
         // Si no ha muerto, ejecuta las corrutinas
         StartCoroutine(EjecutarGolpeCabeza());
         StartCoroutine(HacerInvulnerable(0.5f));
+        StartCoroutine(Tintineo());
     }
 
     // Método para manejar la muerte del jugador
@@ -124,5 +127,22 @@ public class VidaJugador : MonoBehaviour
 
         // Cuando el fade-out termina, carga la escena de Game Over
         SceneManager.LoadScene(gameOverSceneName);
+    }
+
+    private IEnumerator Tintineo()
+    {
+        // Realiza efecto de tintineo cuando lo golpean.
+        float r = spriteRenderer.color.r;
+        float g = spriteRenderer.color.g;
+        float b = spriteRenderer.color.b;
+        float tiempo = 0.08f;
+
+        for (int i = 0; i < 5; i++)
+        {
+            spriteRenderer.color = new Color(r, g, b, 0);
+            yield return new WaitForSeconds(tiempo);
+            spriteRenderer.color = new Color(r, g, b, 1);
+            yield return new WaitForSeconds(tiempo);
+        }
     }
 }
