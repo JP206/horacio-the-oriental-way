@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 66fc33001dfaa264389d766e0f1953d9
+guid: 1a5189960127c52449e41f62dc10f8e9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -81,6 +81,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -95,6 +108,19 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -123,7 +149,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemigo-hit-abajo.gif_0
+      name: frontal-iz.gif_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6c900fbc8f90e740866efb11419c03f
-      internalID: 1770289164
+      spriteID: 8acf24f6f5a5220438c646ad18f935a6
+      internalID: -795201207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo-hit-abajo.gif_1
+      name: frontal-iz.gif_1
       rect:
         serializedVersion: 2
         x: 540
@@ -158,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4dec568372288d4bac4d9219c5ecd32
-      internalID: 445981921
+      spriteID: d89c317bbfc486e49b4d587d7a8935c0
+      internalID: -1116080816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo-hit-abajo.gif_2
+      name: frontal-iz.gif_2
       rect:
         serializedVersion: 2
         x: 1080
@@ -179,14 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c091a262e92bd88409b3999797a41d05
-      internalID: 24781691
+      spriteID: 1308fc47301d36c4f8a9129c524e96a5
+      internalID: -1506898960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo-hit-abajo.gif_3
+      name: frontal-iz.gif_3
       rect:
         serializedVersion: 2
         x: 1620
@@ -200,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f052d11ea7efcd24290aa49132a7442b
-      internalID: -1983301848
+      spriteID: 60227297524a35c4ba1f40646b7c66d5
+      internalID: 491749826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo-hit-abajo.gif_4
+      name: frontal-iz.gif_4
       rect:
         serializedVersion: 2
         x: 0
@@ -221,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94bebaee72bc3a743ab36419293419d1
-      internalID: -1431081561
+      spriteID: c77036233b45a8e4bb10d8c6763f419f
+      internalID: -1610806705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo-hit-abajo.gif_5
+      name: frontal-iz.gif_5
       rect:
         serializedVersion: 2
         x: 540
@@ -242,14 +268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e91c85605db8c60428085f12dbf12798
-      internalID: 1201699596
+      spriteID: 6768860782a60804c8eda17925e21646
+      internalID: -268854152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo-hit-abajo.gif_6
+      name: frontal-iz.gif_6
       rect:
         serializedVersion: 2
         x: 1080
@@ -263,14 +289,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e471bf34b60f9b246843befc6a8fc574
-      internalID: 133294549
+      spriteID: a6e66af17263635449062663f23f9c72
+      internalID: 1542279486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo-hit-abajo.gif_7
+      name: frontal-iz.gif_7
       rect:
         serializedVersion: 2
         x: 1620
@@ -284,14 +310,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b3986d73bcc258418a04bc7bf38b5b0
-      internalID: -1203019990
+      spriteID: e3e3ff8620c1a904195be8f9a3b55e78
+      internalID: 18918459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo-hit-abajo.gif_8
+      name: frontal-iz.gif_8
       rect:
         serializedVersion: 2
         x: 0
@@ -305,14 +331,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37be3a6b9d7c1e9408afb6c91435a47b
-      internalID: 1076730239
+      spriteID: fd9de0a00a144df4d81013f9d32bfb63
+      internalID: 599946287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo-hit-abajo.gif_9
+      name: frontal-iz.gif_9
       rect:
         serializedVersion: 2
         x: 540
@@ -326,14 +352,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a479cefe80598bd4580109d086670bc2
-      internalID: -196425741
+      spriteID: a6e6edd5a984f614685c7355048c98c7
+      internalID: 304691654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo-hit-abajo.gif_10
+      name: frontal-iz.gif_10
       rect:
         serializedVersion: 2
         x: 1080
@@ -347,29 +373,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9de1ac2cd5088b41b4fc6ce515b4065
-      internalID: -1392354677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemigo-hit-abajo.gif_11
-      rect:
-        serializedVersion: 2
-        x: 1620
-        y: 0
-        width: 540
-        height: 540
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 272de8970ad422141afaa14abe481de8
-      internalID: -1352856948
+      spriteID: d33fd8db8b46da34aac25ebfedb1e828
+      internalID: -1092188539
       vertices: []
       indices: 
       edges: []
@@ -385,18 +390,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Enemigo-hit-abajo.gif_0: 1770289164
-      Enemigo-hit-abajo.gif_1: 445981921
-      Enemigo-hit-abajo.gif_10: -1392354677
-      Enemigo-hit-abajo.gif_11: -1352856948
-      Enemigo-hit-abajo.gif_2: 24781691
-      Enemigo-hit-abajo.gif_3: -1983301848
-      Enemigo-hit-abajo.gif_4: -1431081561
-      Enemigo-hit-abajo.gif_5: 1201699596
-      Enemigo-hit-abajo.gif_6: 133294549
-      Enemigo-hit-abajo.gif_7: -1203019990
-      Enemigo-hit-abajo.gif_8: 1076730239
-      Enemigo-hit-abajo.gif_9: -196425741
+      frontal-iz.gif_0: -795201207
+      frontal-iz.gif_1: -1116080816
+      frontal-iz.gif_10: -1092188539
+      frontal-iz.gif_2: -1506898960
+      frontal-iz.gif_3: 491749826
+      frontal-iz.gif_4: -1610806705
+      frontal-iz.gif_5: -268854152
+      frontal-iz.gif_6: 1542279486
+      frontal-iz.gif_7: 18918459
+      frontal-iz.gif_8: 599946287
+      frontal-iz.gif_9: 304691654
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

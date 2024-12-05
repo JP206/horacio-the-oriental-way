@@ -68,7 +68,7 @@ public class VidaEnemigo : MonoBehaviour
         DesactivarColliders();
 
         // Inicia la corrutina para el tintineo y destrucción
-        StartCoroutine(TintinearYDestruir());
+        StartCoroutine(TintinearYDesactivar());
     }
 
     private void DesactivarColliders()
@@ -83,7 +83,7 @@ public class VidaEnemigo : MonoBehaviour
         }
     }
 
-    private IEnumerator TintinearYDestruir()
+    private IEnumerator TintinearYDesactivar()
     {
         //Obtengo la referencia del enemigo directamente del metodo
         SetupEnemy();
@@ -121,6 +121,9 @@ public class VidaEnemigo : MonoBehaviour
         yield return new WaitForSeconds(Mathf.Max(0f, tiempoAnimacion - duracionTintineo));
 
         // Finalmente destruye el objeto
-        Destroy(gameObject);
+        //Destroy(gameObject);
+
+        // Desactivo el objeto para que quede en el pool
+        gameObject.SetActive(false);
     }
 }
