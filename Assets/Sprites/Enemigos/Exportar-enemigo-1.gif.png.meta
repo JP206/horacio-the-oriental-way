@@ -1,0 +1,4456 @@
+fileFormatVersion: 2
+guid: ebf7f636029d48748879f6aa3eb313ea
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0e15c56ca35834f9f60bfa0db6aa20
+      internalID: -615372182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_1
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8ffe0e24078034aa4842f2355e5ac8
+      internalID: -202460684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_2
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb95d5123545d240847707427a13cba
+      internalID: 1394269206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_3
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f83a358fa0d63744b544a51a1615546
+      internalID: -478142111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_4
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a49c98b0678064ab784b32a9153756
+      internalID: -976239866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_5
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8620d4acc86d324882db98571f572bb
+      internalID: -932253905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_6
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b219b4dc1693e4ba92fff8f12ac1ba
+      internalID: -1867341436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_7
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0bda968fa837142a74c459e9690805
+      internalID: 619946150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_8
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480db95b3c1134f49a1784dd63196323
+      internalID: -143403636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_9
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e64bd7ebb5a67a4eb92365e51cccda0
+      internalID: -761836232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_10
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04dc35e19d5b8964893c370b39e67cd2
+      internalID: 176102698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_11
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1e1fc196080dc478e7e44dd50e553b
+      internalID: 620055121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_12
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0f868194c3faf4ba2770470c07d4a8
+      internalID: 1873306392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_13
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250e566f5a1025244b070ae7e1f00a15
+      internalID: 300179605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668df4320d5efe9428f84e7533acddd4
+      internalID: -1477872601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_15
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75528a5e6797f64fa3d2c0168a0a2b1
+      internalID: 81731101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_16
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309c7d0ed6e92e4419441749b34f8e6e
+      internalID: -671513844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_17
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d10392a7f5fda6429da2707b5a1cce1
+      internalID: -1885535453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_18
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c4c7b1b069aa44288e101076439ba7
+      internalID: -1256160347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_19
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f95d648a7783f4785d5231a4aa0607
+      internalID: -267031936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_20
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f92264260a78042ba0a3ce6f1ea4e8
+      internalID: -1628295468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_21
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbc916b049c1fb4584b1f7f504dd464
+      internalID: -2053173690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_22
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fb26d99fc9fd249b6196b00e7217ae
+      internalID: -432934626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_23
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1399ccca1ba1712419cc2bccc9e78bea
+      internalID: 801114357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_24
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ca558a9926c6a46ab4d1feaa353679
+      internalID: -1692957853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_25
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cec6993a2996794aacb20336c57909a
+      internalID: -490566346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_26
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443eef671d4e31f4b914868e96503b3c
+      internalID: 1320391259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_27
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bfc858397fc26419f44b7aab58b8f3
+      internalID: 639997844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3921eb9f6eb9611498db76bf320998b6
+      internalID: -754886169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_29
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69dbec5f06e510438160686da393467
+      internalID: 1008774570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_30
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c599538dcad0d55499af818a753df49f
+      internalID: -237983214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_31
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a6c038621e2d84aa13b2f773b6918d
+      internalID: 1967216485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_32
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46133611b974a949b87131081d4679d
+      internalID: -718627550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_33
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cf78cade7993741beb37dab1c6e96a
+      internalID: -1695048563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_34
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac636c3b9a93fd428941ef052db5dee
+      internalID: 175942357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_35
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523ef21cf662ab54584154c1634db2ed
+      internalID: -1635848671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_36
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4020c5333f745554a95ef00de1671caa
+      internalID: -1635125869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_37
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31592a140d43cce499fad86425025cb5
+      internalID: 620623528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_38
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf33d3063299f13478b5d8197ae2f476
+      internalID: -808838712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_39
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86067c73327e83459a29a0e3e2127c4
+      internalID: -142261849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_40
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3079b96112e52f84eb0e79116687146e
+      internalID: 1913115094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_41
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439b6dbb93a94884cb6d99e70087d44b
+      internalID: -1974548095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e77997ec582c36459300758155481ba
+      internalID: 673593326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_43
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5407c2d2557544f8f2e5201e11e922
+      internalID: -340247730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_44
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3cc8b3eb2ce7647825c3d336770ab6
+      internalID: 1131539627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_45
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2efc932f4f08b44a85fe84f15b81bc
+      internalID: -166091780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_46
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8531525908cc1da46bf4cd417d2f55a1
+      internalID: -1775776383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_47
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80be3ba7abf03a4c931126078b07d64
+      internalID: -1437402624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_48
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5863528bf8073a40ae302081cf17a77
+      internalID: -1041112887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_49
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155ad771f2dd6d645921dd95f43e05e0
+      internalID: 1169844444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_50
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e2f78174d6b944aa6b49fb48acd0bc
+      internalID: -505865808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_51
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fdaa0983c67c243ae5d449313bda19
+      internalID: -787722737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_52
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675fc01930f85744abaacd1842251c4b
+      internalID: 807272483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_53
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343d8259aa50ae849b82cb887fd7329b
+      internalID: 599217511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_54
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74129fd72e4eedf418dbd1bd06786d8c
+      internalID: -797269708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_55
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a057c6295c67fb74a9db21ec22a4dca8
+      internalID: 1357262639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493ea85d9f7ec904787a93163277b9df
+      internalID: -843813915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_57
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f438365741598742b17eb2d991bf2a2
+      internalID: 1535678257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_58
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41280902738e42b4ab741468ce1d9058
+      internalID: -1963136347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_59
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf534d0084ffe54f9e0249883b9b0c2
+      internalID: -1516374439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_60
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e45be0763f30c45ac949a96b261ff0
+      internalID: -667088926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_61
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd197f4d4aa2a24d887b3755849e7ba
+      internalID: -1874155498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_62
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d0e5773f26e5f43962163d5ba86d03
+      internalID: -654699351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_63
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bd5b2aaf508c746a3406316c09be00
+      internalID: 927611194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_64
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd6da3605fb96244b68c597c4bf7fbb
+      internalID: 1946721933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_65
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee0e891c85d6b244a07e2839c0e7148
+      internalID: -1731701723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_66
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8099241971d77154b95b64ed6ae7d157
+      internalID: -57856786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_67
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f507a88ce2ccd64797c486daad6a7a1
+      internalID: 2117256957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_68
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4205d2ae7fbea2c4e920ea33392d97c0
+      internalID: 451236374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_69
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a4e02eafb6a1d4faaa0b22679cb28b
+      internalID: 13616627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a81f55e044d9d4a99cba0dfea7ddde
+      internalID: -1253863651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_71
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547c19d858285734ca23fff7f01595cf
+      internalID: 2026274359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_72
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33aa3d9301119c40a065d837d365abc
+      internalID: -455829219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_73
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8f08c75051c3e4999b1b27cd5a2196
+      internalID: -559151635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_74
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e571b82e4cccfa4db3c7a5a277f94f4
+      internalID: -970015608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_75
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2591c32b992f14646b32ed8f8d1dbb31
+      internalID: 1503081205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_76
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d9d72cbbad56b469f87fbe7fd359be
+      internalID: 1247616648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_77
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbd9efbd49a0d242a084180a63e2ebf
+      internalID: -1835887825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_78
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a68f736dd6bcf249945332b51f9e58d
+      internalID: -1076774552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_79
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1611d3e5e6cfc40892c9eb6bd3f3d5
+      internalID: -1003401612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_80
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103cb5a576789754e9fc62f243d5dd2a
+      internalID: 797886328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_81
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c247e53e4e360bb4a95d936b1eb64a4b
+      internalID: 419583003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_82
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cad1863abae1624c92b557f6f40d8e1
+      internalID: 97665454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_83
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d349104fea540b40a28682d81213edc
+      internalID: 66649889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0c88a650a5d02468ea145670c703aa
+      internalID: -1209438498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_85
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10c17a3b11b81043a7c5e5334b1b01d
+      internalID: 1569651787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_86
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6deb73c5a7eb9334fb616161540a8ecc
+      internalID: -1912654038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_87
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7ae4aa7cde82c4fb044d5838da4b6f
+      internalID: -1437846070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_88
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7ab5d9e47a192499ed150e2d9e0064
+      internalID: -650259966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_89
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd90efbe710076f4fac1410719909728
+      internalID: 2070779274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_90
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ce13a3121343c419ae135cfb16ba79
+      internalID: 1151378542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_91
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cee828656231b441aac0c7ddc3b9e8a
+      internalID: 1283583702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_92
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3a9bb7f5410cb4494da0b294d9a192
+      internalID: -1509115707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_93
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3b8e5ce313edc4586574f782e2e835
+      internalID: -1663597975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_94
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112826b675c76a1459e1b6b98d8bac31
+      internalID: -2147417997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_95
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29aa77f068cd79346b9421df544307fe
+      internalID: -350348665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_96
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6128432948a756a4ca23e183de758d47
+      internalID: 1834577547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_97
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05783313c8abb2042ba2f2872cba2f5d
+      internalID: 738494980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f6a3a1ca2a7f14aa312c64ed07e830
+      internalID: -788023893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_99
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9cb757f1f9f6c469102ff0649c4ffd
+      internalID: 1511598355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_100
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0103596abde217d4a993c7c4548423c5
+      internalID: 233979220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_101
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c647bc0b273b3d4587179736a560ba5
+      internalID: -1895188777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_102
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d17ad7102ef2f419b92585615b249e
+      internalID: -414789764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_103
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad91a07a93410df4a8204612c221da49
+      internalID: -2026128819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_104
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026eecc094368654fbbb4d5c7926e2a7
+      internalID: 1828848245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_105
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bd64946b8fe25468cf3d7dde349dc7
+      internalID: -103630825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_106
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da8a9c3e608a754ebbdc7a3b6b97ea8
+      internalID: 1152213963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_107
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d850cc1791978543ac3e4f31db7f632
+      internalID: 1898336754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_108
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d6f5fc8ddf8f14bafb905e619cb8ed
+      internalID: 545070327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_109
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bafda0909f81454bacf747f51bc1105
+      internalID: -1161533275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_110
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65042f5d44fed524e917d21d75f58abe
+      internalID: 1637934091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_111
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e0cbabf19e24448a389c7595f3b518
+      internalID: 602087078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea1454ea5ce00d4c8ca0500a903b110
+      internalID: 1562163026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_113
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2d4e97e4a108e4e913c6f1857079f9
+      internalID: 1378976186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_114
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f93f1d64ca96848bb06bda1cd7a6c0
+      internalID: 347937633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_115
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa1025aedb9dc8489fc42c7f6008e35
+      internalID: -201369270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_116
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9659b8e6954d84e4a8d820e58242daae
+      internalID: 481724854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_117
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4202ff9133efba943b16111b05992b10
+      internalID: -303350344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_118
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33a6a54a351eb94ab5c2ccadabd2224
+      internalID: -166146919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_119
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710ab7a7fc0e10547ac1e5b8f6aabe06
+      internalID: -1584475656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_120
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f7df5023e7e2f4da5440deb019236b
+      internalID: -1378126487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_121
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9414098e3e473ad4ca2fcb739300520d
+      internalID: -1882774541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_122
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9ed4237e67ad849997aff33676782c
+      internalID: 702535688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_123
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03f1e4f6f182cd4f96ee66073896859
+      internalID: 1872741348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_124
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d0410fa52d05f4299c56578d32d2e9
+      internalID: 1794209134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_125
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8c45852bf5b134fa2520677158a1c8
+      internalID: -1805608726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5380be21cba752428413efbfc4f1115
+      internalID: 1703440330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_127
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3d455509a27fe47ac8cb6c069e7b4a
+      internalID: 728693282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_128
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b84ca776fa30d94cb0409ed38b10322
+      internalID: -351479138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_129
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db387696f7d5dba44945eeb5e1630b40
+      internalID: -1187334804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_130
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc68ecff2efdda94d9b54d88d9570d17
+      internalID: 1494445559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_131
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524bffc21e5c28541b7734165830a53a
+      internalID: 769868664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_132
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d60036aa8a4644a99ad9cf100c2845
+      internalID: -296802949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_133
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4b21345c934ba4d9cd3fcc5d5b2a07
+      internalID: -176063657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_134
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632eb7c960991514c9c235b86c8b401b
+      internalID: 1175461938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_135
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680e70d6e092b884f90b7bed0ad4dfee
+      internalID: 547316723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_136
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e4786f02e8f514d88a3f2c393f4693
+      internalID: -1331444603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_137
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d420f53f3e08efe4c85903fc4f2a7c95
+      internalID: -700520254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_138
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa42cb52d1328d4095f1ef21122fe25
+      internalID: 1378545438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_139
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae850ed8ca5ecf04896c4b2e33922174
+      internalID: 2080215717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2398e231e4acea44781d023037623645
+      internalID: -1858509276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_141
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bee962d3b463ad499d151ab2d253f1c
+      internalID: 1843475679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_142
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968d709f8a9d1be46977d7d64e74f07e
+      internalID: -1329395097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_143
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ef7339e7845db4fb28ec0c02b65cb8
+      internalID: 867383492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_144
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ade428aeac7c3848a49a20ddcbad7cd
+      internalID: -1075226557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_145
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdac00322b0dbb14cba288c2eee9f4a5
+      internalID: 194490271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_146
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2974a87ba70519b499235015b154198d
+      internalID: -975409874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_147
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3635496642c05734c9a8e281f2e5d5e2
+      internalID: 164567344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_148
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ad670fcb6fda9458f83a364cbc0455
+      internalID: -1130975717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_149
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2371a63fb52fdd3478e4ab9749dd3780
+      internalID: 456002374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_150
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36451dcc52f76f48b81c36c25eec2fb
+      internalID: 620321313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_151
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e72c6410c7b66343b44530df9c853d8
+      internalID: 1765807104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_152
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205f7014aaac582478e0a1efcf0af29a
+      internalID: -388091785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_153
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b688786016db2a45850f4e01ea887fd
+      internalID: 423445939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90fff4572872f64cb3e67948727ad19
+      internalID: 873554880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_155
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72257160d6535014b9f5356f7c6a2133
+      internalID: -632145274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_156
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a384ed2107b8a43a649650627ff0a4
+      internalID: 2096104236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_157
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5789d79300c30d54ca306103c74ed448
+      internalID: 1376618401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_158
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb064490c3569c4da8f5a904971d0bd
+      internalID: 19268252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_159
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00458052612926349b5b0734f2c446d6
+      internalID: 1391067092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_160
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8428bd275ee9ec6478ee07c07413a04c
+      internalID: -1232962479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_161
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a81f957b8be5c7419f0933ffc2b2725
+      internalID: 265612693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_162
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7146f7e86e4f444af0dd70becd34d9
+      internalID: -1173416252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_163
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ebfbd8e4eb7c44c872c75d504264cd
+      internalID: -2095431041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_164
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7e27a854902044e83490ba08a0810a
+      internalID: 1293476630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_165
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb03a7d0f3877544952c2fb15230eec
+      internalID: 1740502374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_166
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7cd84238111c244a1f85c009e4772e
+      internalID: 974499246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_167
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a663cdb1d1681498574a5b65d0a4a4
+      internalID: 1761199308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06f14b26d0b0fc43af381c6169e5f53
+      internalID: 2032694891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_169
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7aec1b2e83ce6445931418d4df98db8
+      internalID: -1940557412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_170
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75c6ee36a4d90f45bd1cf32d19c6669
+      internalID: -1862691181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_171
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985ce8c1c9b63014fa5eb72d9adb1ecd
+      internalID: -1279961061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_172
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e1d1dfa3fe4f9409e29d78ffe8eafb
+      internalID: -448682767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_173
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910f3b972d9f25e4f9575917fc62508f
+      internalID: -444399253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_174
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27649dc38064b72479283c70361ceb1f
+      internalID: -676051958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_175
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416387d562d03fd4d8d2fd10b34a22fe
+      internalID: -555217296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_176
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd21274b7fa5134b8638ee28496b702
+      internalID: 1289865142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_177
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cbb11e1fa6c4045a33f3a24ac7714e
+      internalID: -1185739905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_178
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56fc5d9d6d0b1740bcb4cc93af8b783
+      internalID: -1932454083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_179
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb8486bdc21997448018e54e6e4453b
+      internalID: -1369104755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_180
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59f1a40fccc13b42b4b46658d54422a
+      internalID: 1685609047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_181
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca10d1e608100144e906e9464653b77c
+      internalID: 1289581582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa04f9ae37ffc846bf6c7a6b53641e0
+      internalID: -960256370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_183
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da21c45d6bdd6f4f9ec230a8c31cc87
+      internalID: 664380203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_184
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cfa8cea473e4c4fbea76935aecd14c
+      internalID: -1799458481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_185
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76baa0e3b2604ad49806b11f70de9681
+      internalID: -2109217150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_186
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b948e9dcf6628ee4690d918bc24a970a
+      internalID: 563522690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_187
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9804e2f263fef4d9f85ba65af35391
+      internalID: 2037101969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_188
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31285589aca2562409d070a0db65cd8d
+      internalID: -182936120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_189
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea3774a4ec6dc548bd71644b4b10ef9
+      internalID: -1843885877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_190
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3ec2db738d74c42b37fb645a3af8b0
+      internalID: -1844277500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_191
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f239b59cffc1e764b91aa124b1b7401f
+      internalID: -1612854000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_192
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6028affcbe8f00b46b14ebcaca396ce7
+      internalID: 984369735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_193
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e270fc3e7e7c544a9493d1a6f5c35c8
+      internalID: 1032569031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exportar-enemigo-1.gif_194
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d5b7ef49461044a82345e3022e1a58
+      internalID: 436820196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Exportar-enemigo-1.gif_0: -615372182
+      Exportar-enemigo-1.gif_1: -202460684
+      Exportar-enemigo-1.gif_10: 176102698
+      Exportar-enemigo-1.gif_100: 233979220
+      Exportar-enemigo-1.gif_101: -1895188777
+      Exportar-enemigo-1.gif_102: -414789764
+      Exportar-enemigo-1.gif_103: -2026128819
+      Exportar-enemigo-1.gif_104: 1828848245
+      Exportar-enemigo-1.gif_105: -103630825
+      Exportar-enemigo-1.gif_106: 1152213963
+      Exportar-enemigo-1.gif_107: 1898336754
+      Exportar-enemigo-1.gif_108: 545070327
+      Exportar-enemigo-1.gif_109: -1161533275
+      Exportar-enemigo-1.gif_11: 620055121
+      Exportar-enemigo-1.gif_110: 1637934091
+      Exportar-enemigo-1.gif_111: 602087078
+      Exportar-enemigo-1.gif_112: 1562163026
+      Exportar-enemigo-1.gif_113: 1378976186
+      Exportar-enemigo-1.gif_114: 347937633
+      Exportar-enemigo-1.gif_115: -201369270
+      Exportar-enemigo-1.gif_116: 481724854
+      Exportar-enemigo-1.gif_117: -303350344
+      Exportar-enemigo-1.gif_118: -166146919
+      Exportar-enemigo-1.gif_119: -1584475656
+      Exportar-enemigo-1.gif_12: 1873306392
+      Exportar-enemigo-1.gif_120: -1378126487
+      Exportar-enemigo-1.gif_121: -1882774541
+      Exportar-enemigo-1.gif_122: 702535688
+      Exportar-enemigo-1.gif_123: 1872741348
+      Exportar-enemigo-1.gif_124: 1794209134
+      Exportar-enemigo-1.gif_125: -1805608726
+      Exportar-enemigo-1.gif_126: 1703440330
+      Exportar-enemigo-1.gif_127: 728693282
+      Exportar-enemigo-1.gif_128: -351479138
+      Exportar-enemigo-1.gif_129: -1187334804
+      Exportar-enemigo-1.gif_13: 300179605
+      Exportar-enemigo-1.gif_130: 1494445559
+      Exportar-enemigo-1.gif_131: 769868664
+      Exportar-enemigo-1.gif_132: -296802949
+      Exportar-enemigo-1.gif_133: -176063657
+      Exportar-enemigo-1.gif_134: 1175461938
+      Exportar-enemigo-1.gif_135: 547316723
+      Exportar-enemigo-1.gif_136: -1331444603
+      Exportar-enemigo-1.gif_137: -700520254
+      Exportar-enemigo-1.gif_138: 1378545438
+      Exportar-enemigo-1.gif_139: 2080215717
+      Exportar-enemigo-1.gif_14: -1477872601
+      Exportar-enemigo-1.gif_140: -1858509276
+      Exportar-enemigo-1.gif_141: 1843475679
+      Exportar-enemigo-1.gif_142: -1329395097
+      Exportar-enemigo-1.gif_143: 867383492
+      Exportar-enemigo-1.gif_144: -1075226557
+      Exportar-enemigo-1.gif_145: 194490271
+      Exportar-enemigo-1.gif_146: -975409874
+      Exportar-enemigo-1.gif_147: 164567344
+      Exportar-enemigo-1.gif_148: -1130975717
+      Exportar-enemigo-1.gif_149: 456002374
+      Exportar-enemigo-1.gif_15: 81731101
+      Exportar-enemigo-1.gif_150: 620321313
+      Exportar-enemigo-1.gif_151: 1765807104
+      Exportar-enemigo-1.gif_152: -388091785
+      Exportar-enemigo-1.gif_153: 423445939
+      Exportar-enemigo-1.gif_154: 873554880
+      Exportar-enemigo-1.gif_155: -632145274
+      Exportar-enemigo-1.gif_156: 2096104236
+      Exportar-enemigo-1.gif_157: 1376618401
+      Exportar-enemigo-1.gif_158: 19268252
+      Exportar-enemigo-1.gif_159: 1391067092
+      Exportar-enemigo-1.gif_16: -671513844
+      Exportar-enemigo-1.gif_160: -1232962479
+      Exportar-enemigo-1.gif_161: 265612693
+      Exportar-enemigo-1.gif_162: -1173416252
+      Exportar-enemigo-1.gif_163: -2095431041
+      Exportar-enemigo-1.gif_164: 1293476630
+      Exportar-enemigo-1.gif_165: 1740502374
+      Exportar-enemigo-1.gif_166: 974499246
+      Exportar-enemigo-1.gif_167: 1761199308
+      Exportar-enemigo-1.gif_168: 2032694891
+      Exportar-enemigo-1.gif_169: -1940557412
+      Exportar-enemigo-1.gif_17: -1885535453
+      Exportar-enemigo-1.gif_170: -1862691181
+      Exportar-enemigo-1.gif_171: -1279961061
+      Exportar-enemigo-1.gif_172: -448682767
+      Exportar-enemigo-1.gif_173: -444399253
+      Exportar-enemigo-1.gif_174: -676051958
+      Exportar-enemigo-1.gif_175: -555217296
+      Exportar-enemigo-1.gif_176: 1289865142
+      Exportar-enemigo-1.gif_177: -1185739905
+      Exportar-enemigo-1.gif_178: -1932454083
+      Exportar-enemigo-1.gif_179: -1369104755
+      Exportar-enemigo-1.gif_18: -1256160347
+      Exportar-enemigo-1.gif_180: 1685609047
+      Exportar-enemigo-1.gif_181: 1289581582
+      Exportar-enemigo-1.gif_182: -960256370
+      Exportar-enemigo-1.gif_183: 664380203
+      Exportar-enemigo-1.gif_184: -1799458481
+      Exportar-enemigo-1.gif_185: -2109217150
+      Exportar-enemigo-1.gif_186: 563522690
+      Exportar-enemigo-1.gif_187: 2037101969
+      Exportar-enemigo-1.gif_188: -182936120
+      Exportar-enemigo-1.gif_189: -1843885877
+      Exportar-enemigo-1.gif_19: -267031936
+      Exportar-enemigo-1.gif_190: -1844277500
+      Exportar-enemigo-1.gif_191: -1612854000
+      Exportar-enemigo-1.gif_192: 984369735
+      Exportar-enemigo-1.gif_193: 1032569031
+      Exportar-enemigo-1.gif_194: 436820196
+      Exportar-enemigo-1.gif_2: 1394269206
+      Exportar-enemigo-1.gif_20: -1628295468
+      Exportar-enemigo-1.gif_21: -2053173690
+      Exportar-enemigo-1.gif_22: -432934626
+      Exportar-enemigo-1.gif_23: 801114357
+      Exportar-enemigo-1.gif_24: -1692957853
+      Exportar-enemigo-1.gif_25: -490566346
+      Exportar-enemigo-1.gif_26: 1320391259
+      Exportar-enemigo-1.gif_27: 639997844
+      Exportar-enemigo-1.gif_28: -754886169
+      Exportar-enemigo-1.gif_29: 1008774570
+      Exportar-enemigo-1.gif_3: -478142111
+      Exportar-enemigo-1.gif_30: -237983214
+      Exportar-enemigo-1.gif_31: 1967216485
+      Exportar-enemigo-1.gif_32: -718627550
+      Exportar-enemigo-1.gif_33: -1695048563
+      Exportar-enemigo-1.gif_34: 175942357
+      Exportar-enemigo-1.gif_35: -1635848671
+      Exportar-enemigo-1.gif_36: -1635125869
+      Exportar-enemigo-1.gif_37: 620623528
+      Exportar-enemigo-1.gif_38: -808838712
+      Exportar-enemigo-1.gif_39: -142261849
+      Exportar-enemigo-1.gif_4: -976239866
+      Exportar-enemigo-1.gif_40: 1913115094
+      Exportar-enemigo-1.gif_41: -1974548095
+      Exportar-enemigo-1.gif_42: 673593326
+      Exportar-enemigo-1.gif_43: -340247730
+      Exportar-enemigo-1.gif_44: 1131539627
+      Exportar-enemigo-1.gif_45: -166091780
+      Exportar-enemigo-1.gif_46: -1775776383
+      Exportar-enemigo-1.gif_47: -1437402624
+      Exportar-enemigo-1.gif_48: -1041112887
+      Exportar-enemigo-1.gif_49: 1169844444
+      Exportar-enemigo-1.gif_5: -932253905
+      Exportar-enemigo-1.gif_50: -505865808
+      Exportar-enemigo-1.gif_51: -787722737
+      Exportar-enemigo-1.gif_52: 807272483
+      Exportar-enemigo-1.gif_53: 599217511
+      Exportar-enemigo-1.gif_54: -797269708
+      Exportar-enemigo-1.gif_55: 1357262639
+      Exportar-enemigo-1.gif_56: -843813915
+      Exportar-enemigo-1.gif_57: 1535678257
+      Exportar-enemigo-1.gif_58: -1963136347
+      Exportar-enemigo-1.gif_59: -1516374439
+      Exportar-enemigo-1.gif_6: -1867341436
+      Exportar-enemigo-1.gif_60: -667088926
+      Exportar-enemigo-1.gif_61: -1874155498
+      Exportar-enemigo-1.gif_62: -654699351
+      Exportar-enemigo-1.gif_63: 927611194
+      Exportar-enemigo-1.gif_64: 1946721933
+      Exportar-enemigo-1.gif_65: -1731701723
+      Exportar-enemigo-1.gif_66: -57856786
+      Exportar-enemigo-1.gif_67: 2117256957
+      Exportar-enemigo-1.gif_68: 451236374
+      Exportar-enemigo-1.gif_69: 13616627
+      Exportar-enemigo-1.gif_7: 619946150
+      Exportar-enemigo-1.gif_70: -1253863651
+      Exportar-enemigo-1.gif_71: 2026274359
+      Exportar-enemigo-1.gif_72: -455829219
+      Exportar-enemigo-1.gif_73: -559151635
+      Exportar-enemigo-1.gif_74: -970015608
+      Exportar-enemigo-1.gif_75: 1503081205
+      Exportar-enemigo-1.gif_76: 1247616648
+      Exportar-enemigo-1.gif_77: -1835887825
+      Exportar-enemigo-1.gif_78: -1076774552
+      Exportar-enemigo-1.gif_79: -1003401612
+      Exportar-enemigo-1.gif_8: -143403636
+      Exportar-enemigo-1.gif_80: 797886328
+      Exportar-enemigo-1.gif_81: 419583003
+      Exportar-enemigo-1.gif_82: 97665454
+      Exportar-enemigo-1.gif_83: 66649889
+      Exportar-enemigo-1.gif_84: -1209438498
+      Exportar-enemigo-1.gif_85: 1569651787
+      Exportar-enemigo-1.gif_86: -1912654038
+      Exportar-enemigo-1.gif_87: -1437846070
+      Exportar-enemigo-1.gif_88: -650259966
+      Exportar-enemigo-1.gif_89: 2070779274
+      Exportar-enemigo-1.gif_9: -761836232
+      Exportar-enemigo-1.gif_90: 1151378542
+      Exportar-enemigo-1.gif_91: 1283583702
+      Exportar-enemigo-1.gif_92: -1509115707
+      Exportar-enemigo-1.gif_93: -1663597975
+      Exportar-enemigo-1.gif_94: -2147417997
+      Exportar-enemigo-1.gif_95: -350348665
+      Exportar-enemigo-1.gif_96: 1834577547
+      Exportar-enemigo-1.gif_97: 738494980
+      Exportar-enemigo-1.gif_98: -788023893
+      Exportar-enemigo-1.gif_99: 1511598355
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
