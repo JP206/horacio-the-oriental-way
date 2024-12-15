@@ -52,7 +52,7 @@ public class VidaJugador : MonoBehaviour
 
         // Si no ha muerto, ejecuta las corrutinas
         StartCoroutine(EjecutarGolpeCabeza());
-        StartCoroutine(HacerInvulnerable(0.5f));
+        //StartCoroutine(HacerInvulnerable(0.5f));
         StartCoroutine(Tintineo());
     }
 
