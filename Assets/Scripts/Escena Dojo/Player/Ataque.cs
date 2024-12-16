@@ -24,14 +24,14 @@ public class Ataque : MonoBehaviour
     public void AtaqueJab()
     {
         animator.SetTrigger("jab");
-        attackDetector.HighCollider(danioJab); 
+        attackDetector.JabCollider(danioJab); 
     }
 
     // Método para realizar el ataque High Kick
     public void AtaqueHighKick()
     {
         animator.SetTrigger("highKick");
-        attackDetector.HighCollider(danioPatada);
+        attackDetector.HighKickCollider(danioPatada);
     }
 
     // Método para realizar el ataque Special Kick

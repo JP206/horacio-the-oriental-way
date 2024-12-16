@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SceneInitializer : MonoBehaviour
 {
@@ -16,11 +17,11 @@ public class SceneInitializer : MonoBehaviour
     [SerializeField] SonidoGolpe sonidoGolpe;
     [SerializeField] AudioSource audioSourceHoracio;
     [SerializeField] SpriteRenderer spriteRendererHoracio;
-
+    [SerializeField] Image barraDeVida;
     void Start()
     {
         ataque.InitializeReferences(animacion, attackDetector);
-        jugador.InitializeReferences(animacion, inputManager, spriteRendererHoracio);
+        jugador.InitializeReferences(animacion, inputManager, spriteRendererHoracio, barraDeVida);
         attackDetector.InitializeReferences(sonidoGolpe);
         sonidoGolpe.InitializeReferences(audioSourceHoracio);
     }

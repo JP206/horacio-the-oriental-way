@@ -6,7 +6,12 @@ public class AtaqueEnemigo : MonoBehaviour
 {
     [SerializeField] float cooldownAtaques;
     [SerializeField] bool golpeDerecha;
-    [SerializeField] int danioJab;
+    [SerializeField] int _danioJab; 
+    public int DanioJab
+    {
+        get => _danioJab; 
+        set => _danioJab = Mathf.Max(0, value); 
+    }
 
     Animator animator;
     VidaJugador vidaJugador;
@@ -33,11 +38,10 @@ public class AtaqueEnemigo : MonoBehaviour
             StartCoroutine(ataque());
             puedeAtacar = false;
             animator.SetTrigger("golpeDerecha");
-            vidaJugador.RecibirDanio(danioJab);
+            vidaJugador.RecibirDanio(DanioJab, transform.position);
             audioSource.PlayOneShot(audioSource.clip);
         }
     }
-
 
     IEnumerator ataque()
     {

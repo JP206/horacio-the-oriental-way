@@ -44,7 +44,7 @@ public class VidaEnemigo : MonoBehaviour
         vidaActual -= danio;
 
         // Activa la animación correspondiente al tipo de daño
-        if (typoDanio == "high") { animator.SetTrigger("hitCabeza"); }
+        if (typoDanio == "jab" || typoDanio == "high") { animator.SetTrigger("hitCabeza"); }
         else if (typoDanio == "chest") { animator.SetTrigger("hitPecho"); }
         else if (typoDanio == "low") { animator.SetTrigger("hitPiernas"); }
 

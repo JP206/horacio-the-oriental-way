@@ -8,6 +8,9 @@ TagManager:
   - CabezaEnemigo
   - TorsoEnemigo
   - PiernasEnemigo
+  - CabezaHoracio
+  - TorsoHoracio
+  - PiernasHoracio
   layers:
   - Default
   - TransparentFX
@@ -21,9 +24,9 @@ TagManager:
   - CabezaEnemigo
   - TorsoEnemigo
   - PiernasEnemigo
-  - 
-  - 
-  - 
+  - CabezaHoracio
+  - TorsoHoracio
+  - PiernasHoracio
   - 
   - 
   - 
