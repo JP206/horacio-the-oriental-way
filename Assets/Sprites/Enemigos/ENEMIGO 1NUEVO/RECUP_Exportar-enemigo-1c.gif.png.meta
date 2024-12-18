@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,10 +69,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -147,7 +147,4102 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faea33efb96a4e8448a2fdae287d4cd6
+      internalID: 260588526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_1
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35eb9755938244142ac93edeb762d3f1
+      internalID: -1959608833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_2
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bdcd5ff57d6e449afe827790331000
+      internalID: 2022324918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_3
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805c803726942164a9cfa4c784cdcbc7
+      internalID: -272612240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_4
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74658b49ee4f57c4c8a7b3ec7983c3c1
+      internalID: 652439118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_5
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f29038116fa1744afc3439483f7e94
+      internalID: -1097590223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_6
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59e121223685ae4d81757870bd60f07
+      internalID: -1364395568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_7
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa0b40a9674f094e949811b0eb300d1
+      internalID: -2033396722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_8
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2520b7786a04a504ebb9fa53613de36e
+      internalID: 2073997100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_9
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedb2c56f59d8334d90aeb5cd5ed7112
+      internalID: -2083482688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_10
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfbfd965d1c26547a72de58df0e689f
+      internalID: 713001480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_11
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06d4dd6a09b7274fb274146963e15d0
+      internalID: -700936945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_12
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bd6ed86eefbb3428bf9b1822938edd
+      internalID: 593073628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_13
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 9100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ef37ffffc25a547bb4eda7ce249bd9
+      internalID: 730495047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f02ae2cf2ae3bb448eff89c13e443c3
+      internalID: 1179389874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_15
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ef4eb8ae5867240bb7722507820a6a
+      internalID: 2102314524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_16
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993c374fb3a3cef4eac71c70c8e50bef
+      internalID: 1881590180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_17
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df06d879f457344187ec3ba2e262800
+      internalID: -1723008432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_18
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a932f2a71f9e6304ab5631ee49ff4bb8
+      internalID: 1611832525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_19
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65db1407d169cde4db76024fae8fcda5
+      internalID: -1954288776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_20
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c392fd22eb0bd4e98c24cc7a525403
+      internalID: 1257456209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_21
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3021aa548f9e1284dbf32ece9a643048
+      internalID: 1578322111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_22
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02130226efba33041bbdfc63710ffcbf
+      internalID: 1718312348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_23
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf14e38ed2da2c4b8788adc5fd85486
+      internalID: 2125677131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_24
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5720eb36a45cc8e4ba38f5360eec5227
+      internalID: -497827804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_25
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3088f8e453721f04a883de251c939148
+      internalID: 1108797857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_26
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5796eabcf4b614d9749b13760c082a
+      internalID: 1699916316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_27
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 8400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0b147b644755045a5b9d349361507e
+      internalID: -71863682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b62247f89d252e4b93bb746352c7e20
+      internalID: -1076013397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_29
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3e7273759c4bb4f9a80974e1202d86
+      internalID: 1296429936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_30
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fc78c036d79fb4ebac638456453ffa
+      internalID: -1278328704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_31
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbdc301f14537843abc85674bad1b54
+      internalID: 584187352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_32
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c0ba9f3d19eb34ebe6cc6d8934828e
+      internalID: -1465942712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_33
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4778983ea9c54439c1746e056bc56d
+      internalID: -573207051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_34
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89469350da4813b4fae50ff63be4bae0
+      internalID: 1304175509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_35
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf9259fc7c7d944d866bb7410639cad
+      internalID: 1896734743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_36
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbaccfdde6d7f6947a62c2fd8ceebabb
+      internalID: 759525108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_37
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf21335598acb894e9fc560c70b4e83e
+      internalID: -1705727084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_38
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f8c2551de20a9419085a8ee31512db
+      internalID: 537083851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_39
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c972bacdc3bbfd244ab85ab40591ea9a
+      internalID: -321574924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_40
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13db725421862ca42bd424a582d43d4b
+      internalID: -795390859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_41
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 7700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066ba846fbd65064f808363c9731ac55
+      internalID: 644477013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233bc90c79338d14ea6dcf632b56eabd
+      internalID: 1259681369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_43
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b334320579e25874590cce69157280b6
+      internalID: -668143512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_44
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22749d04e7103a84085d32907743dfd1
+      internalID: -42674285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_45
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6aacd29188309c4084885e7bf3a2a99
+      internalID: -1448034690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_46
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd99fb1c56fe1d4eb3ca90cbfbbe8aa
+      internalID: -260433843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_47
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa3cc877104f104aa8c9df35c380340
+      internalID: 1689587915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_48
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5840a384771fb44bef6ea64635cbc5
+      internalID: -988319875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_49
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ccfc20747879c44876a99be13d3872
+      internalID: 1981937224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_50
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e141667e1f44244b8c9c5ca1242f6d
+      internalID: -1580214813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_51
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ae0496e395a5f4c8ac28523625b9f2
+      internalID: 823710723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_52
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e11addad9de9594092fa9d34e16716b
+      internalID: 772395144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_53
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713fca4b2e822844cad62233a48cb414
+      internalID: 527311631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_54
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a61aea842fab0408ef0df8b0e37c59
+      internalID: -968487034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_55
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 7000
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbe894d0d51c7e439784b80ee6601da
+      internalID: -596162554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2157421712303364fa6100e7c7e819d7
+      internalID: 1995214236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_57
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f22dcbb2550b24d816d4d09b21eef5
+      internalID: 1689746293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_58
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771d2f620417f0c438a1f527bb85fc88
+      internalID: 1314103655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_59
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edb42858d2171140be9cd9621f12723
+      internalID: -329799165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_60
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882d0b347322fe041a1d17d111a299f4
+      internalID: 478940379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_61
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05bdd967bc8a404eaf28b9bea9c768d
+      internalID: 1068253392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_62
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79c12e540725064f86d25833394f8d7
+      internalID: -1540557240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_63
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de22cf85b7c2b0d4790f8ad2823a7a90
+      internalID: 1899158929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_64
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13616c28908b3645a2f08fcc30cb974
+      internalID: -27811174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_65
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e6d70c7b2928048b1ad740a9ccbda8
+      internalID: -758580895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_66
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4619f28d68d104d85395a6a53c534c
+      internalID: -1416164247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_67
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254b50a69cd38fc4aa6278968eecc90e
+      internalID: -1352826207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_68
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77adbb3be892e9d4db5f2e271f282e85
+      internalID: 611351997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_69
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 6300
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af841816e6aa91d4fb95588e0f77b880
+      internalID: 425858311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2f250bfba1bc242be3868e86b7c7f3
+      internalID: -1258458575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_71
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8d26163b6c7ac48a2d8b945c415055
+      internalID: 931161438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_72
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bb1e68b6029214a979d640ace7650f
+      internalID: -2002966853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_73
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e4374543041324ebdca4b177ebb931
+      internalID: 313459988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_74
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160967c9b9b818c4ab3ebb1d56af8c0c
+      internalID: -1209128303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_75
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feba05eca2d704447a9e6eda1137f76a
+      internalID: 1868556731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_76
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372bb743575cffa4e9b519be2e5f9fa0
+      internalID: 571352118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_77
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df775af7cd49e54478ccbf012f599bba
+      internalID: 626377212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_78
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf0f57347bba6d4588a2dabe322cde1
+      internalID: 1053488488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_79
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a76ee442a2edfb4295a0aa07de9bee6
+      internalID: 1826180139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_80
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc0b71451afe934cb030f6643081322
+      internalID: 2102584539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_81
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88fea999134b0e4991b8cba01a541eb
+      internalID: 624652904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_82
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd306b8cab0a5946915e6478038f2a3
+      internalID: -1451501533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_83
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 5600
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655fd5c434fb4fd449a34b3bfdc16cc4
+      internalID: -1887284010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0a9e9155b82ae409573aaa82e21a54
+      internalID: 406232407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_85
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e2a7158d8ed934da7123d3f10a59dd
+      internalID: -1366537136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_86
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d68f0ebfaee4f046a66636dea5eb904
+      internalID: -1663825899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_87
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f7218e77b93d444852b5fcbe043199
+      internalID: 338169603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_88
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68a730e42b52424185b70774597b8c3
+      internalID: -800965946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_89
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53c02fa663b1ac4f9deb501c2f5ab38
+      internalID: -341104747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_90
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d13026bb033554f9b092d9226f840d
+      internalID: -274110946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_91
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7ebffa89b999c42933b830eb380be5
+      internalID: 580106104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_92
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d3a12305712084ab39eb74f060bb04
+      internalID: -652899070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_93
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c061b8aeef46d43b9694d5705eb462
+      internalID: 1693175954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_94
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f488998fe07f6224b900c1e6290fa828
+      internalID: 407063576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_95
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf92e2c54f3e76e46acf16a8f3fc8514
+      internalID: 1006610154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_96
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c623a03a8e93534e85601b4b6202c57
+      internalID: -1242821193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_97
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 4900
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d602efa120893642b0c5de660cf4547
+      internalID: -151218148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3f59e4fb2ad04498f72b56855e9ade
+      internalID: 637859060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_99
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5fe2f09878b0c4b9f01d8d27527c19
+      internalID: -783953261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_100
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e12f5c4842e504391780a4f673c27a
+      internalID: 1888089716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_101
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd17a211e2b1c340ade9ba34947828d
+      internalID: 1959767673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_102
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda31068b47c5b544910eb3eb5bebef0
+      internalID: -1279690393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_103
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04635a70523bfc44940d579750be07a
+      internalID: 280763007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_104
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1ff2de5f4a48c4ebe5b7bae3d800fc
+      internalID: 273331530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_105
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ccc4ec9368dea4b9871c7660b721bb
+      internalID: -317199974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_106
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03607810cc0f41b44b8d646d9a9a097b
+      internalID: -1031191439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_107
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e159098514e5d0748a45007ab626a770
+      internalID: 277553788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_108
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb41a06e04a2d7547b29dcf62cecbf68
+      internalID: -971327059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_109
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf896a3e72e08144845bfe2ecbec5a2
+      internalID: -1329665843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_110
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffa3332a407f8e41bc28884929de37e
+      internalID: 42373460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_111
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 4200
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7651201a18fbfe47b20e5d1fcf83acc
+      internalID: 1003040752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7de609a324cf54899b4e7492c01089
+      internalID: 1499349111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_113
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c009e62d8f3d65479a12a820c283d2e
+      internalID: -1226740944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_114
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ce93b17b773d94692b4ed89233a134
+      internalID: 1955442725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_115
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f74ba91b9202f943acf91ded41f92ad
+      internalID: 518080121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_116
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e4de5c7625b58429455dbd4ea7bb3c
+      internalID: 1945508762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_117
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff59bbbcd63a10b44890e712707b61f3
+      internalID: 296909853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_118
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7d8c9623752f54cb5fe12f3b0d8409
+      internalID: 290507052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_119
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdb030719743c64a91df790fa9adc18
+      internalID: -2042901353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_120
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435ebe6794184054cacc6f3452fe0d39
+      internalID: -206495932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_121
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56f4066e7da0584f8f2b4dfe51eae69
+      internalID: 1494296841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_122
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6931afd39e2f7ee459c848d1c376c665
+      internalID: -1721061190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_123
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c75b93c2c82ff64998719f15c0c5fa7
+      internalID: -1289833169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_124
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d918e4c5a9db6be4f8f3e89a76e07f23
+      internalID: -527864177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_125
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 3500
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71902bbc8c6fce14d99ac278d30d51c5
+      internalID: 1346086511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff6246daff9f114d89ea2163246bac9
+      internalID: 2046357454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_127
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e515212300a86f48ad4c27ccc130136
+      internalID: 1694791804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_128
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f8997b2dde06a4fa75c988cbb6af5c
+      internalID: -676658167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_129
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbad0025616e23b4fa082e1b67827c31
+      internalID: 1388529664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_130
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c18cfab85f123b4da871ca6e9440da4
+      internalID: 1930305682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_131
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4c88c3dd8cb0842a357ccd20b525a6
+      internalID: -1599859908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_132
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9ef533c5b45314e8c8672fee376358
+      internalID: 1053673971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_133
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9468f2ad9805cb44d85ff857bf732caf
+      internalID: -473256074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_134
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc31ea3963d753468339ce0f1d54834
+      internalID: -1292409519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_135
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f57b3749a4a9e4fafa3ab87452eed8
+      internalID: -2047664989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_136
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a725a28ca50c3bc459633f9988d7323f
+      internalID: 774178097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_137
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f684fcf5ae9ac94587721981b3be909
+      internalID: -1281078731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_138
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a785dff0ff07f746b94f4780f130a8e
+      internalID: -1294660183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_139
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 2800
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67b5ce4dd706d5438513d608e3927f0
+      internalID: -81452520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc97431f3ff9f254c9e0be87c9a2e1fa
+      internalID: -1192187670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_141
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c095b90af264e49a1148da0b0cc870
+      internalID: 11393335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_142
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50a2cb569d026f4baa219d44693793c
+      internalID: 1852417826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_143
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1827833ac65374f46849559212cfde9e
+      internalID: 1101582670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_144
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac91302bf8b0b7458ad880e0e2be9a3
+      internalID: 329854357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_145
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1504ede3880aecf4c837002daf23b323
+      internalID: 1817689091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_146
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb3e1fa22b62f044a8df33a10c83bce
+      internalID: -1387030259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_147
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce0f7bd32c9b3d46baecc9678216f80
+      internalID: -579270307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_148
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4abc954d8a29346bf3d91c3046a1fc
+      internalID: 107443930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_149
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc62cbc949fcd74eb8edee5682a6980
+      internalID: -379554298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_150
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba704136068bf94facc8fe662508676
+      internalID: -1804545999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_151
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15a2c4ba20dfa4478c99559a20a1bfd
+      internalID: 74146640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_152
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fc65192b201d645ab277ab964b0881
+      internalID: 1498869632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_153
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 2100
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538a0b46a39fdb141aaa48c4ee759de7
+      internalID: 1472331832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53360a61440b56148ac0863a39a3f0f9
+      internalID: -1782373354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_155
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b47fa9498637a49b42f794b64b8249
+      internalID: -1939672651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_156
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d842160fcafb67f4da8d3790c7375172
+      internalID: -1043644416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_157
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0e3d5a2a99de04ea9782f9bb03e1fd
+      internalID: 521728183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_158
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca893e8f803f98c489aa808314208bc0
+      internalID: 839568333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_159
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfd22e3919fd684797c45bfd7510865
+      internalID: -672293869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_160
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7572aaf4d6f31424ba5ef2c603dad95e
+      internalID: 1272168849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_161
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07847249267f10f4e9df97541017afb1
+      internalID: -381772891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_162
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc8f08947f9e6f4d8a2c03f22837f47
+      internalID: 880089779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_163
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e4df10e03310e4a9f55b33ec8ec5ce
+      internalID: -2087710231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_164
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92094bfbd7eba04409e94ec0f5df56ac
+      internalID: -241711321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_165
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce3590c23a4e75479f18d8078aa8470
+      internalID: -682821753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_166
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e542ab8e9fcbbf409256c0f0ef6d1f0
+      internalID: 1882343601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_167
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 1400
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9931f7c6206f3ba4c9be7f57525a49f2
+      internalID: -47559298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8a66f412b035c478e91821a6ddcfcd
+      internalID: 813243073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_169
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6624137c240833543bcc463f852ebf1c
+      internalID: -831358373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_170
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdbd08677a8e4040a0f30c6715b1c81
+      internalID: 2053103527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_171
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfebc1ad9f3ce2d438c08a65033f0847
+      internalID: 2093553305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_172
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5be5b1a3c0d3f4c83aabb0773f254f
+      internalID: -2046643372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_173
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629e9479492f022489198c9ed3c68344
+      internalID: 722701983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_174
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b94c681250aaf5479c2f11893ea7aba
+      internalID: -1474069721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_175
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4265503289e0177428aec32e206995b8
+      internalID: 1013064132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_176
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0929f2e2b559474887e1f2fc57b5b17
+      internalID: 359094212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_177
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1268eeb890a838f4b838e33bcf59eb29
+      internalID: -247004753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_178
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755fa37a319274144b96271adfba03f5
+      internalID: 317426881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_179
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244726dfa5d282c4b81a5097f9664244
+      internalID: -1252700400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_180
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed5638820aed3641b0da2d1a30b7664
+      internalID: 1106083024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_181
+      rect:
+        serializedVersion: 2
+        x: 9100
+        y: 700
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce51ab92b6167bb4a9928fc849571412
+      internalID: -1730468887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a87f105a1516c5458c0ef1a86cda55f
+      internalID: -1750213532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_183
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc8428e9e176374fa292a51611497da
+      internalID: -689833888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_184
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6c21f301df3fe418e58698d6923610
+      internalID: -757398709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_185
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce2aedfe57b9e245ad067c5c23cf00c
+      internalID: -116939213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_186
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94b8e851a4aa18499a82b11e9c4f75f
+      internalID: 1170052782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_187
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55051bd9be54003478023ab8e8f5cdb2
+      internalID: -837664769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_188
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbea12f91b230244bd4200f526fd383
+      internalID: -214264227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_189
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9bbd5668d5e55498e4b351fe7bec25
+      internalID: 2112431277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_190
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7555a8717c337e146a12e306ed87a438
+      internalID: 472967948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_191
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f5cbef8155c594f8be8ce0a0f18b10
+      internalID: -1621887309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_192
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbddaaff4a949874db4e37ea92064ac8
+      internalID: -532397443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_193
+      rect:
+        serializedVersion: 2
+        x: 7700
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934c55895351af3488ad0cb1eb50fa35
+      internalID: 1831603974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RECUP_Exportar-enemigo-1c.gif_194
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 0
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f835bfde1aed9c42a67ad2717c7d6db
+      internalID: -974152427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +4253,202 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RECUP_Exportar-enemigo-1c.gif_0: 260588526
+      RECUP_Exportar-enemigo-1c.gif_1: -1959608833
+      RECUP_Exportar-enemigo-1c.gif_10: 713001480
+      RECUP_Exportar-enemigo-1c.gif_100: 1888089716
+      RECUP_Exportar-enemigo-1c.gif_101: 1959767673
+      RECUP_Exportar-enemigo-1c.gif_102: -1279690393
+      RECUP_Exportar-enemigo-1c.gif_103: 280763007
+      RECUP_Exportar-enemigo-1c.gif_104: 273331530
+      RECUP_Exportar-enemigo-1c.gif_105: -317199974
+      RECUP_Exportar-enemigo-1c.gif_106: -1031191439
+      RECUP_Exportar-enemigo-1c.gif_107: 277553788
+      RECUP_Exportar-enemigo-1c.gif_108: -971327059
+      RECUP_Exportar-enemigo-1c.gif_109: -1329665843
+      RECUP_Exportar-enemigo-1c.gif_11: -700936945
+      RECUP_Exportar-enemigo-1c.gif_110: 42373460
+      RECUP_Exportar-enemigo-1c.gif_111: 1003040752
+      RECUP_Exportar-enemigo-1c.gif_112: 1499349111
+      RECUP_Exportar-enemigo-1c.gif_113: -1226740944
+      RECUP_Exportar-enemigo-1c.gif_114: 1955442725
+      RECUP_Exportar-enemigo-1c.gif_115: 518080121
+      RECUP_Exportar-enemigo-1c.gif_116: 1945508762
+      RECUP_Exportar-enemigo-1c.gif_117: 296909853
+      RECUP_Exportar-enemigo-1c.gif_118: 290507052
+      RECUP_Exportar-enemigo-1c.gif_119: -2042901353
+      RECUP_Exportar-enemigo-1c.gif_12: 593073628
+      RECUP_Exportar-enemigo-1c.gif_120: -206495932
+      RECUP_Exportar-enemigo-1c.gif_121: 1494296841
+      RECUP_Exportar-enemigo-1c.gif_122: -1721061190
+      RECUP_Exportar-enemigo-1c.gif_123: -1289833169
+      RECUP_Exportar-enemigo-1c.gif_124: -527864177
+      RECUP_Exportar-enemigo-1c.gif_125: 1346086511
+      RECUP_Exportar-enemigo-1c.gif_126: 2046357454
+      RECUP_Exportar-enemigo-1c.gif_127: 1694791804
+      RECUP_Exportar-enemigo-1c.gif_128: -676658167
+      RECUP_Exportar-enemigo-1c.gif_129: 1388529664
+      RECUP_Exportar-enemigo-1c.gif_13: 730495047
+      RECUP_Exportar-enemigo-1c.gif_130: 1930305682
+      RECUP_Exportar-enemigo-1c.gif_131: -1599859908
+      RECUP_Exportar-enemigo-1c.gif_132: 1053673971
+      RECUP_Exportar-enemigo-1c.gif_133: -473256074
+      RECUP_Exportar-enemigo-1c.gif_134: -1292409519
+      RECUP_Exportar-enemigo-1c.gif_135: -2047664989
+      RECUP_Exportar-enemigo-1c.gif_136: 774178097
+      RECUP_Exportar-enemigo-1c.gif_137: -1281078731
+      RECUP_Exportar-enemigo-1c.gif_138: -1294660183
+      RECUP_Exportar-enemigo-1c.gif_139: -81452520
+      RECUP_Exportar-enemigo-1c.gif_14: 1179389874
+      RECUP_Exportar-enemigo-1c.gif_140: -1192187670
+      RECUP_Exportar-enemigo-1c.gif_141: 11393335
+      RECUP_Exportar-enemigo-1c.gif_142: 1852417826
+      RECUP_Exportar-enemigo-1c.gif_143: 1101582670
+      RECUP_Exportar-enemigo-1c.gif_144: 329854357
+      RECUP_Exportar-enemigo-1c.gif_145: 1817689091
+      RECUP_Exportar-enemigo-1c.gif_146: -1387030259
+      RECUP_Exportar-enemigo-1c.gif_147: -579270307
+      RECUP_Exportar-enemigo-1c.gif_148: 107443930
+      RECUP_Exportar-enemigo-1c.gif_149: -379554298
+      RECUP_Exportar-enemigo-1c.gif_15: 2102314524
+      RECUP_Exportar-enemigo-1c.gif_150: -1804545999
+      RECUP_Exportar-enemigo-1c.gif_151: 74146640
+      RECUP_Exportar-enemigo-1c.gif_152: 1498869632
+      RECUP_Exportar-enemigo-1c.gif_153: 1472331832
+      RECUP_Exportar-enemigo-1c.gif_154: -1782373354
+      RECUP_Exportar-enemigo-1c.gif_155: -1939672651
+      RECUP_Exportar-enemigo-1c.gif_156: -1043644416
+      RECUP_Exportar-enemigo-1c.gif_157: 521728183
+      RECUP_Exportar-enemigo-1c.gif_158: 839568333
+      RECUP_Exportar-enemigo-1c.gif_159: -672293869
+      RECUP_Exportar-enemigo-1c.gif_16: 1881590180
+      RECUP_Exportar-enemigo-1c.gif_160: 1272168849
+      RECUP_Exportar-enemigo-1c.gif_161: -381772891
+      RECUP_Exportar-enemigo-1c.gif_162: 880089779
+      RECUP_Exportar-enemigo-1c.gif_163: -2087710231
+      RECUP_Exportar-enemigo-1c.gif_164: -241711321
+      RECUP_Exportar-enemigo-1c.gif_165: -682821753
+      RECUP_Exportar-enemigo-1c.gif_166: 1882343601
+      RECUP_Exportar-enemigo-1c.gif_167: -47559298
+      RECUP_Exportar-enemigo-1c.gif_168: 813243073
+      RECUP_Exportar-enemigo-1c.gif_169: -831358373
+      RECUP_Exportar-enemigo-1c.gif_17: -1723008432
+      RECUP_Exportar-enemigo-1c.gif_170: 2053103527
+      RECUP_Exportar-enemigo-1c.gif_171: 2093553305
+      RECUP_Exportar-enemigo-1c.gif_172: -2046643372
+      RECUP_Exportar-enemigo-1c.gif_173: 722701983
+      RECUP_Exportar-enemigo-1c.gif_174: -1474069721
+      RECUP_Exportar-enemigo-1c.gif_175: 1013064132
+      RECUP_Exportar-enemigo-1c.gif_176: 359094212
+      RECUP_Exportar-enemigo-1c.gif_177: -247004753
+      RECUP_Exportar-enemigo-1c.gif_178: 317426881
+      RECUP_Exportar-enemigo-1c.gif_179: -1252700400
+      RECUP_Exportar-enemigo-1c.gif_18: 1611832525
+      RECUP_Exportar-enemigo-1c.gif_180: 1106083024
+      RECUP_Exportar-enemigo-1c.gif_181: -1730468887
+      RECUP_Exportar-enemigo-1c.gif_182: -1750213532
+      RECUP_Exportar-enemigo-1c.gif_183: -689833888
+      RECUP_Exportar-enemigo-1c.gif_184: -757398709
+      RECUP_Exportar-enemigo-1c.gif_185: -116939213
+      RECUP_Exportar-enemigo-1c.gif_186: 1170052782
+      RECUP_Exportar-enemigo-1c.gif_187: -837664769
+      RECUP_Exportar-enemigo-1c.gif_188: -214264227
+      RECUP_Exportar-enemigo-1c.gif_189: 2112431277
+      RECUP_Exportar-enemigo-1c.gif_19: -1954288776
+      RECUP_Exportar-enemigo-1c.gif_190: 472967948
+      RECUP_Exportar-enemigo-1c.gif_191: -1621887309
+      RECUP_Exportar-enemigo-1c.gif_192: -532397443
+      RECUP_Exportar-enemigo-1c.gif_193: 1831603974
+      RECUP_Exportar-enemigo-1c.gif_194: -974152427
+      RECUP_Exportar-enemigo-1c.gif_2: 2022324918
+      RECUP_Exportar-enemigo-1c.gif_20: 1257456209
+      RECUP_Exportar-enemigo-1c.gif_21: 1578322111
+      RECUP_Exportar-enemigo-1c.gif_22: 1718312348
+      RECUP_Exportar-enemigo-1c.gif_23: 2125677131
+      RECUP_Exportar-enemigo-1c.gif_24: -497827804
+      RECUP_Exportar-enemigo-1c.gif_25: 1108797857
+      RECUP_Exportar-enemigo-1c.gif_26: 1699916316
+      RECUP_Exportar-enemigo-1c.gif_27: -71863682
+      RECUP_Exportar-enemigo-1c.gif_28: -1076013397
+      RECUP_Exportar-enemigo-1c.gif_29: 1296429936
+      RECUP_Exportar-enemigo-1c.gif_3: -272612240
+      RECUP_Exportar-enemigo-1c.gif_30: -1278328704
+      RECUP_Exportar-enemigo-1c.gif_31: 584187352
+      RECUP_Exportar-enemigo-1c.gif_32: -1465942712
+      RECUP_Exportar-enemigo-1c.gif_33: -573207051
+      RECUP_Exportar-enemigo-1c.gif_34: 1304175509
+      RECUP_Exportar-enemigo-1c.gif_35: 1896734743
+      RECUP_Exportar-enemigo-1c.gif_36: 759525108
+      RECUP_Exportar-enemigo-1c.gif_37: -1705727084
+      RECUP_Exportar-enemigo-1c.gif_38: 537083851
+      RECUP_Exportar-enemigo-1c.gif_39: -321574924
+      RECUP_Exportar-enemigo-1c.gif_4: 652439118
+      RECUP_Exportar-enemigo-1c.gif_40: -795390859
+      RECUP_Exportar-enemigo-1c.gif_41: 644477013
+      RECUP_Exportar-enemigo-1c.gif_42: 1259681369
+      RECUP_Exportar-enemigo-1c.gif_43: -668143512
+      RECUP_Exportar-enemigo-1c.gif_44: -42674285
+      RECUP_Exportar-enemigo-1c.gif_45: -1448034690
+      RECUP_Exportar-enemigo-1c.gif_46: -260433843
+      RECUP_Exportar-enemigo-1c.gif_47: 1689587915
+      RECUP_Exportar-enemigo-1c.gif_48: -988319875
+      RECUP_Exportar-enemigo-1c.gif_49: 1981937224
+      RECUP_Exportar-enemigo-1c.gif_5: -1097590223
+      RECUP_Exportar-enemigo-1c.gif_50: -1580214813
+      RECUP_Exportar-enemigo-1c.gif_51: 823710723
+      RECUP_Exportar-enemigo-1c.gif_52: 772395144
+      RECUP_Exportar-enemigo-1c.gif_53: 527311631
+      RECUP_Exportar-enemigo-1c.gif_54: -968487034
+      RECUP_Exportar-enemigo-1c.gif_55: -596162554
+      RECUP_Exportar-enemigo-1c.gif_56: 1995214236
+      RECUP_Exportar-enemigo-1c.gif_57: 1689746293
+      RECUP_Exportar-enemigo-1c.gif_58: 1314103655
+      RECUP_Exportar-enemigo-1c.gif_59: -329799165
+      RECUP_Exportar-enemigo-1c.gif_6: -1364395568
+      RECUP_Exportar-enemigo-1c.gif_60: 478940379
+      RECUP_Exportar-enemigo-1c.gif_61: 1068253392
+      RECUP_Exportar-enemigo-1c.gif_62: -1540557240
+      RECUP_Exportar-enemigo-1c.gif_63: 1899158929
+      RECUP_Exportar-enemigo-1c.gif_64: -27811174
+      RECUP_Exportar-enemigo-1c.gif_65: -758580895
+      RECUP_Exportar-enemigo-1c.gif_66: -1416164247
+      RECUP_Exportar-enemigo-1c.gif_67: -1352826207
+      RECUP_Exportar-enemigo-1c.gif_68: 611351997
+      RECUP_Exportar-enemigo-1c.gif_69: 425858311
+      RECUP_Exportar-enemigo-1c.gif_7: -2033396722
+      RECUP_Exportar-enemigo-1c.gif_70: -1258458575
+      RECUP_Exportar-enemigo-1c.gif_71: 931161438
+      RECUP_Exportar-enemigo-1c.gif_72: -2002966853
+      RECUP_Exportar-enemigo-1c.gif_73: 313459988
+      RECUP_Exportar-enemigo-1c.gif_74: -1209128303
+      RECUP_Exportar-enemigo-1c.gif_75: 1868556731
+      RECUP_Exportar-enemigo-1c.gif_76: 571352118
+      RECUP_Exportar-enemigo-1c.gif_77: 626377212
+      RECUP_Exportar-enemigo-1c.gif_78: 1053488488
+      RECUP_Exportar-enemigo-1c.gif_79: 1826180139
+      RECUP_Exportar-enemigo-1c.gif_8: 2073997100
+      RECUP_Exportar-enemigo-1c.gif_80: 2102584539
+      RECUP_Exportar-enemigo-1c.gif_81: 624652904
+      RECUP_Exportar-enemigo-1c.gif_82: -1451501533
+      RECUP_Exportar-enemigo-1c.gif_83: -1887284010
+      RECUP_Exportar-enemigo-1c.gif_84: 406232407
+      RECUP_Exportar-enemigo-1c.gif_85: -1366537136
+      RECUP_Exportar-enemigo-1c.gif_86: -1663825899
+      RECUP_Exportar-enemigo-1c.gif_87: 338169603
+      RECUP_Exportar-enemigo-1c.gif_88: -800965946
+      RECUP_Exportar-enemigo-1c.gif_89: -341104747
+      RECUP_Exportar-enemigo-1c.gif_9: -2083482688
+      RECUP_Exportar-enemigo-1c.gif_90: -274110946
+      RECUP_Exportar-enemigo-1c.gif_91: 580106104
+      RECUP_Exportar-enemigo-1c.gif_92: -652899070
+      RECUP_Exportar-enemigo-1c.gif_93: 1693175954
+      RECUP_Exportar-enemigo-1c.gif_94: 407063576
+      RECUP_Exportar-enemigo-1c.gif_95: 1006610154
+      RECUP_Exportar-enemigo-1c.gif_96: -1242821193
+      RECUP_Exportar-enemigo-1c.gif_97: -151218148
+      RECUP_Exportar-enemigo-1c.gif_98: 637859060
+      RECUP_Exportar-enemigo-1c.gif_99: -783953261
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
