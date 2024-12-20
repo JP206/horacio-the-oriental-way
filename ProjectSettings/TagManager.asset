@@ -15,18 +15,18 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Fondo
+  - Background
   - Water
   - UI
-  - Piso
-  - Jugador
-  - Enemigo
-  - CabezaEnemigo
-  - TorsoEnemigo
-  - PiernasEnemigo
-  - CabezaHoracio
-  - TorsoHoracio
-  - PiernasHoracio
+  - Floor
+  - Player
+  - Enemy
+  - EnemyHead
+  - EnemyChest
+  - EnemyLegs
+  - PlayerHead
+  - PlayerChest
+  - PlayerLegs
   - 
   - 
   - 

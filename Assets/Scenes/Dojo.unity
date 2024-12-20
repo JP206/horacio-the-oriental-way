@@ -3984,12 +3984,20 @@ PrefabInstance:
       value: 3584
       objectReference: {fileID: 0}
     - target: {fileID: 451663520079221015, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
+      propertyPath: m_Name
+      value: PlayerHead
+      objectReference: {fileID: 0}
+    - target: {fileID: 451663520079221015, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
       propertyPath: m_Layer
       value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 451663520079221015, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
       propertyPath: m_TagString
       value: CabezaHoracio
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003092017289050880, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
+      propertyPath: m_Name
+      value: PlayerLegs
       objectReference: {fileID: 0}
     - target: {fileID: 1003092017289050880, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
       propertyPath: m_Layer
@@ -4049,7 +4057,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4631036899367573231, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
       propertyPath: m_Name
-      value: Horacio
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5580541200353034191, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
+      propertyPath: m_Name
+      value: PlayerChest
       objectReference: {fileID: 0}
     - target: {fileID: 5580541200353034191, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
       propertyPath: m_Layer
