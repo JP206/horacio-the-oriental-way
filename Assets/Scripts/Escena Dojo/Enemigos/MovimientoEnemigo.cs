@@ -28,7 +28,7 @@ public class MovimientoEnemigo : MonoBehaviour
     {
         xVelocidad = xValue * velocidadCorrer;
 
-        animator.SetFloat("xVelocidad", Mathf.Abs(xVelocidad));
+        animator.SetFloat("xVlocity", Mathf.Abs(xVelocidad));
 
         if (deltaX < 0) enemyRenderer.flipX = true;
         else if (deltaX > 0) enemyRenderer.flipX = false;

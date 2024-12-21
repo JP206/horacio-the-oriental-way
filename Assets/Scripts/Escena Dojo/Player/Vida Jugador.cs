@@ -79,7 +79,7 @@ public class VidaJugador : MonoBehaviour
     {
         StopAllCoroutines();
         inputManager.HoracioVivo(false);
-        animator.SetTrigger("Caida");
+        animator.SetTrigger("Dead");
         StartCoroutine(WaitForAnimationAndFadeOut());
     }
 
@@ -95,13 +95,13 @@ public class VidaJugador : MonoBehaviour
         if (golpeCabezaActivo) yield break;
         golpeCabezaActivo = true;
 
-        animator.SetTrigger(posicionAtacante ? "golpeCabezaDetras" : "golpeEnCabeza");
+        animator.SetTrigger(posicionAtacante ? "neckHit" : "faceHit");
         golpeCabezaActivo = false;
     }
 
     private IEnumerator WaitForAnimationAndFadeOut()
     {
-        while (!animator.GetCurrentAnimatorStateInfo(0).IsName("Caida"))
+        while (!animator.GetCurrentAnimatorStateInfo(0).IsName("Dead"))
         {
             yield return null;
         }

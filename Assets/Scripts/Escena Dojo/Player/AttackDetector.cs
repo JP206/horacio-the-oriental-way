@@ -28,7 +28,7 @@ public class AttackDetector : MonoBehaviour
         Debug.DrawRay(jabRayOrigin.position, direction * rayLength, Color.red, 0.5f);
 
         // Verifica si golpea algo
-        if (hit.collider != null && hit.collider.CompareTag("CabezaEnemigo"))
+        if (hit.collider != null && hit.collider.CompareTag("EnemyHead"))
         {
             // Busca el componente VidaEnemigo en el objeto golpeado
             VidaEnemigo enemigoGolpeado = hit.collider.GetComponentInParent<VidaEnemigo>();
@@ -52,7 +52,7 @@ public class AttackDetector : MonoBehaviour
         Debug.DrawRay(highRayOrigin.position, direction * rayLength, Color.green, 0.5f);
 
         // Verifica si golpea algo
-        if (hit.collider != null && hit.collider.CompareTag("CabezaEnemigo"))
+        if (hit.collider != null && hit.collider.CompareTag("EnemyHead"))
         {
             // Busca el componente VidaEnemigo en el objeto golpeado
             VidaEnemigo enemigoGolpeado = hit.collider.GetComponentInParent<VidaEnemigo>();
@@ -72,7 +72,7 @@ public class AttackDetector : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(middleRayOrigin.position, direction, rayLength, enemyLayer);
 
         Debug.DrawRay(middleRayOrigin.position, direction * rayLength, Color.blue, 0.5f);
-        if (hit.collider != null && hit.collider.CompareTag("TorsoEnemigo"))
+        if (hit.collider != null && hit.collider.CompareTag("EnemyChest"))
         {
             Debug.Log(hit.collider.name);
             VidaEnemigo enemigoGolpeado = hit.collider.GetComponentInParent<VidaEnemigo>();
@@ -93,7 +93,7 @@ public class AttackDetector : MonoBehaviour
 
         Debug.DrawRay(lowRayOrigin.position, direction * rayLength, Color.black, 0.5f);
 
-        if (hit.collider != null && hit.collider.CompareTag("PiernasEnemigo"))
+        if (hit.collider != null && hit.collider.CompareTag("EnemyLegs"))
         {
             VidaEnemigo enemigoGolpeado = hit.collider.GetComponentInParent<VidaEnemigo>();
 

@@ -16,7 +16,7 @@ public class SpacialDetector : MonoBehaviour
         Debug.DrawRay(rayOrigin, (rayDireccion * lookAhead), Color.blue, 2);
 
         // Verifica si el raycast detectó un objeto y si este objeto tiene el tag "Enemigo"
-        if (hit.collider != null && hit.collider.CompareTag("Enemigo"))
+        if (hit.collider != null && hit.collider.CompareTag("Enemy"))
         {
             // Si el objeto tiene el tag "Enemigo", devuelve el componente VidaEnemigo
             return hit.collider.GetComponent<VidaEnemigo>();

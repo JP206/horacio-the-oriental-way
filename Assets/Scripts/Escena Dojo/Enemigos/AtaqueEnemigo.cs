@@ -5,7 +5,7 @@ using UnityEngine;
 public class AtaqueEnemigo : MonoBehaviour
 {
     [SerializeField] float cooldownAtaques;
-    [SerializeField] bool golpeDerecha;
+    [SerializeField] bool golpeDerecha = false;
     [SerializeField] int _danioJab; 
     public int DanioJab
     {
@@ -30,14 +30,14 @@ public class AtaqueEnemigo : MonoBehaviour
     public void Ataque()
     {
         // Verifico si el enemigo tiene un Animator activo (indicando que sigue vivo)
-        if (!animator || animator.GetBool("isMuerto")) return;
+        if (!animator || animator.GetBool("isDead")) return;
 
         // Verifico las condiciones del ataque
         if (golpeDerecha && puedeAtacar && vidaJugador.VidaActual() > 0)
         {
             StartCoroutine(ataque());
             puedeAtacar = false;
-            animator.SetTrigger("golpeDerecha");
+            animator.SetTrigger("rightJab");
             vidaJugador.RecibirDanio(DanioJab, transform.position);
             audioSource.PlayOneShot(audioSource.clip);
         }

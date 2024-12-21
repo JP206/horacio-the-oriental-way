@@ -405,7 +405,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1088607072360500233, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: golpeDerecha
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1189882290010907982, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+      propertyPath: m_TagString
+      value: EnemyChest
+      objectReference: {fileID: 0}
+    - target: {fileID: 1633283016377166444, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+      propertyPath: m_TagString
+      value: EnemyHead
       objectReference: {fileID: 0}
     - target: {fileID: 2042242722982252394, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: m_Name
@@ -414,6 +422,10 @@ PrefabInstance:
     - target: {fileID: 2042242722982252394, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042242722982252394, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 2759532587976045437, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: m_Size.x
@@ -430,6 +442,10 @@ PrefabInstance:
     - target: {fileID: 2759532587976045437, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: m_Offset.y
       value: 0.16173643
+      objectReference: {fileID: 0}
+    - target: {fileID: 4177414388688219943, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+      propertyPath: m_TagString
+      value: EnemyLegs
       objectReference: {fileID: 0}
     - target: {fileID: 7026552625969125257, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: m_Size.x
@@ -553,6 +569,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 2215315891876584411, guid: 7372f79bc823dd14a8992330638d80bb, type: 3}
+      propertyPath: m_TagString
+      value: EnemyHead
+      objectReference: {fileID: 0}
     - target: {fileID: 2332209900705220351, guid: 7372f79bc823dd14a8992330638d80bb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.479
@@ -609,6 +629,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5457593072970696155, guid: 7372f79bc823dd14a8992330638d80bb, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 5910915421670242311, guid: 7372f79bc823dd14a8992330638d80bb, type: 3}
       propertyPath: m_Size.x
       value: 1.2978007
@@ -657,6 +681,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 8202452591568843590, guid: 7372f79bc823dd14a8992330638d80bb, type: 3}
+      propertyPath: m_TagString
+      value: EnemyLegs
+      objectReference: {fileID: 0}
     - target: {fileID: 8771340024864001735, guid: 7372f79bc823dd14a8992330638d80bb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.08
@@ -700,6 +728,10 @@ PrefabInstance:
     - target: {fileID: 8917509271008582573, guid: 7372f79bc823dd14a8992330638d80bb, type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8917509271008582573, guid: 7372f79bc823dd14a8992330638d80bb, type: 3}
+      propertyPath: m_TagString
+      value: EnemyChest
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3718,6 +3750,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1408230742428058050, guid: 93764044bc016f048bb9e2bccffface6, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 2099631382454147628, guid: 93764044bc016f048bb9e2bccffface6, type: 3}
+      propertyPath: m_TagString
+      value: PlayerLegs
+      objectReference: {fileID: 0}
+    - target: {fileID: 5853324643726613014, guid: 93764044bc016f048bb9e2bccffface6, type: 3}
+      propertyPath: m_TagString
+      value: PlayerChest
+      objectReference: {fileID: 0}
+    - target: {fileID: 7489072348077865308, guid: 93764044bc016f048bb9e2bccffface6, type: 3}
+      propertyPath: m_TagString
+      value: PlayerHead
+      objectReference: {fileID: 0}
     - target: {fileID: 9147759251122034830, guid: 93764044bc016f048bb9e2bccffface6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.69
@@ -3860,7 +3908,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 451663520079221015, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
       propertyPath: m_TagString
-      value: CabezaHoracio
+      value: PlayerHead
       objectReference: {fileID: 0}
     - target: {fileID: 1003092017289050880, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
       propertyPath: m_Name
@@ -3872,7 +3920,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1003092017289050880, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
       propertyPath: m_TagString
-      value: PiernasHoracio
+      value: PlayerLegs
       objectReference: {fileID: 0}
     - target: {fileID: 2550695529436692281, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
       propertyPath: fadeCanvas
@@ -3936,7 +3984,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5580541200353034191, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
       propertyPath: m_TagString
-      value: TorsoHoracio
+      value: PlayerChest
       objectReference: {fileID: 0}
     - target: {fileID: 7987064395264199629, guid: 09c73a95a335935449a29cf33bc776cb, type: 3}
       propertyPath: m_TagString
