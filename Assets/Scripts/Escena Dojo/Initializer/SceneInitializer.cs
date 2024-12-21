@@ -5,39 +5,73 @@ using UnityEngine.UI;
 
 public class SceneInitializer : MonoBehaviour
 {
-    //Importacion de Scripts para inicializar el juego
-    [SerializeField] Movimiento movimientoJugador;
-    [SerializeField] Animator animacion;
-    [SerializeField] SpacialDetector detector;
-    [SerializeField] Ataque ataque;
-    [SerializeField] VidaEnemigo enemigo;
-    [SerializeField] VidaJugador jugador;
-    [SerializeField] AttackDetector attackDetector;
+    // -- Imports -- //
     [SerializeField] InputManager inputManager;
-    [SerializeField] SonidoGolpe sonidoGolpe;
-    [SerializeField] AudioSource audioSourceHoracio;
-    [SerializeField] SpriteRenderer spriteRendererHoracio;
-    [SerializeField] Image barraDeVida;
+    [SerializeField] AudioSource audioSource;
+    [SerializeField] SonidoGolpe sounds;
+    [SerializeField] Image hpBar;
+
+    // -- Player -- //
+    [SerializeField] AttackDetector attackDetector;
+    [SerializeField] Movimiento playerMovement;
+    [SerializeField] SpacialDetector detector;
+    [SerializeField] VidaJugador player;
+    [SerializeField] Ataque attack;
+    [SerializeField] Animator playerAnimator;
+    [SerializeField] SpriteRenderer playerSpriteRenderer;
+
+    // -- Enemy List -- //
+    [SerializeField] List<GameObject> enemies;
+
     void Start()
     {
-        ataque.InitializeReferences(animacion, attackDetector);
-        jugador.InitializeReferences(animacion, inputManager, spriteRendererHoracio, barraDeVida);
-        attackDetector.InitializeReferences(sonidoGolpe);
-        sonidoGolpe.InitializeReferences(audioSourceHoracio);
+        // Player Initializers
+        player.InitializeReferences(playerAnimator, inputManager, playerSpriteRenderer, hpBar);
+        attack.InitializeReferences(playerAnimator, attackDetector);
+        attackDetector.InitializeReferences(sounds);
+
+        // Scene Initializers
+        sounds.InitializeReferences(audioSource);
+
+        // Initialize each enemy in the list
+        foreach (GameObject enemy in enemies)
+        {
+            InitializeEnemy(enemy);
+        }
     }
 
-    //Activo el movimiento X del script Movimiento (Jugador)
-    public void MovimientoEnX(float xValue) { movimientoJugador.DetectarEjeX(xValue); }
+    void InitializeEnemy(GameObject enemy)
+    {
+        // Obtiene los componentes necesarios del enemigo
+        EnemySpatialDetector enemySpatialDetector = enemy.GetComponent<EnemySpatialDetector>();
+        SpriteRenderer enemySpriteRenderer = enemy.GetComponent<SpriteRenderer>();
+        MovimientoEnemigo enemyMovement = enemy.GetComponent<MovimientoEnemigo>();
+        AtaqueEnemigo enemyAttack = enemy.GetComponent<AtaqueEnemigo>();
+        VidaEnemigo enemyVida = enemy.GetComponent<VidaEnemigo>();
+        Animator enemyAnimator = enemy.GetComponent<Animator>();
+        AudioSource enemyAudio = enemy.GetComponent<AudioSource>();
 
-    // Llamo al método de Ataque (Jab)
-    public void OnJab() { ataque.AtaqueJab(); }
+        // Valida que los componentes no sean nulos
+        if (enemySpatialDetector == null || enemySpriteRenderer == null || enemyMovement == null ||
+            enemyAttack == null || enemyVida == null || enemyAnimator == null || enemyAudio == null)
+        {
+            Debug.LogError($"Faltan componentes en el enemigo {enemy.name}");
+            return;
+        }
 
-    // Llamo al método de Ataque (High Kick)
-    public void OnHighKick() { ataque.AtaqueHighKick(); }
+        // Inicializa las referencias
+        enemyAttack.InitializeReferences(enemyAnimator, player, enemyAudio);
+        enemySpatialDetector.InitializeReferences(enemyAttack, enemyMovement, player);
+        enemyMovement.InitializeReferences(enemyAnimator, enemySpriteRenderer);
+        enemyVida.InitializeReferences(enemyAnimator);
+    }
 
-    // Llamo al metodo de Ataque (Special Kick)
-    public void OnSpecialKick() { ataque.AtaqueSpecialKick(); }
+    // Player Movement
+    public void XMovement(float xValue) { playerMovement.DetectOnX(xValue); }
 
-    //Llamo al metodo de ataque (LowKick)
-    public void OnLowKick() { ataque.AtaqueLowKick(); }
+    // Player Attack Methods
+    public void OnJab() { attack.Jab(); }
+    public void OnHighKick() { attack.HighKick(); }
+    public void OnSpecialKick() { attack.SpecialKick(); }
+    public void OnLowKick() { attack.LowKick(); }
 }

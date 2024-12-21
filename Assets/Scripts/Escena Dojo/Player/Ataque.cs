@@ -7,12 +7,12 @@ public class Ataque : MonoBehaviour
     Animator animator;
     AttackDetector attackDetector;
 
-    [SerializeField] public float rangoPatada = 3f;
-    [SerializeField] public float rangoJab = 2f;
-    [SerializeField] int danioPatada = 20;
-    [SerializeField] int danioJab = 10;
-    [SerializeField] int daniolowlKick = 20;
-    [SerializeField] int danioSpecialKick = 50;
+    [SerializeField] public float kickRange = 3f;
+    [SerializeField] public float jabRnage = 2f;
+    [SerializeField] int highKickDmg= 20;
+    [SerializeField] int JabDmg = 10;
+    [SerializeField] int LowKickDmg = 20;
+    [SerializeField] int SpecialKickDmg = 50;
 
     public void InitializeReferences(Animator animator, AttackDetector attackDetector)
     {
@@ -21,30 +21,30 @@ public class Ataque : MonoBehaviour
     }
 
     // Método para realizar el ataque Jab
-    public void AtaqueJab()
+    public void Jab()
     {
         animator.SetTrigger("jab");
-        attackDetector.JabCollider(danioJab); 
+        attackDetector.JabCollider(JabDmg); 
     }
 
     // Método para realizar el ataque High Kick
-    public void AtaqueHighKick()
+    public void HighKick()
     {
         animator.SetTrigger("highKick");
-        attackDetector.HighKickCollider(danioPatada);
+        attackDetector.HighKickCollider(highKickDmg);
     }
 
     // Método para realizar el ataque Special Kick
-    public void AtaqueSpecialKick()
+    public void SpecialKick()
     {
         animator.SetTrigger("specialKick");
-        attackDetector.ChestCollider(danioSpecialKick);
+        attackDetector.ChestCollider(SpecialKickDmg);
     }
 
     // Método para realizar el ataque Special Kick
-    public void AtaqueLowKick()
+    public void LowKick()
     {
         animator.SetTrigger("lowKick");
-        attackDetector.LowCollider(daniolowlKick);
+        attackDetector.LowCollider(LowKickDmg);
     }
 }

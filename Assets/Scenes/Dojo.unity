@@ -405,7 +405,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1088607072360500233, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: golpeDerecha
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1189882290010907982, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: m_TagString
@@ -553,6 +553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8870352102919073074, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+    - {fileID: 8412841481947638912, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1324,6 +1325,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750446132}
   m_CullTransparentMesh: 1
+--- !u!1 &781688965 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5457593072970696155, guid: 7372f79bc823dd14a8992330638d80bb, type: 3}
+  m_PrefabInstance: {fileID: 195008246}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &781688966 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7581813171088491939, guid: 7372f79bc823dd14a8992330638d80bb, type: 3}
+  m_PrefabInstance: {fileID: 195008246}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &825590843
 GameObject:
   m_ObjectHideFlags: 0
@@ -2546,6 +2557,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379637430}
   m_CullTransparentMesh: 1
+--- !u!1 &1414786619 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2042242722982252394, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+  m_PrefabInstance: {fileID: 114848054}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1433706215
 GameObject:
   m_ObjectHideFlags: 0
@@ -3022,7 +3038,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1682303888}
-  - component: {fileID: 1682303887}
+  - component: {fileID: 1682303889}
   m_Layer: 0
   m_Name: Initializer
   m_TagString: Untagged
@@ -3030,30 +3046,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1682303887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1682303886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd484d89e26b8b74b997df894ab0d4b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movimientoJugador: {fileID: 313787121}
-  animacion: {fileID: 313787117}
-  detector: {fileID: 313787120}
-  ataque: {fileID: 313787124}
-  enemigo: {fileID: 0}
-  jugador: {fileID: 313787128}
-  attackDetector: {fileID: 313787130}
-  inputManager: {fileID: 1820743875}
-  sonidoGolpe: {fileID: 313787135}
-  audioSourceHoracio: {fileID: 0}
-  spriteRendererHoracio: {fileID: 313787137}
-  barraDeVida: {fileID: 1221045441}
 --- !u!4 &1682303888
 Transform:
   m_ObjectHideFlags: 0
@@ -3069,6 +3061,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1682303889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682303886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd484d89e26b8b74b997df894ab0d4b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputManager: {fileID: 1820743875}
+  audioSource: {fileID: 781688966}
+  sounds: {fileID: 313787135}
+  hpBar: {fileID: 1221045441}
+  attackDetector: {fileID: 313787130}
+  playerMovement: {fileID: 313787121}
+  detector: {fileID: 313787120}
+  player: {fileID: 313787128}
+  attack: {fileID: 313787124}
+  playerAnimator: {fileID: 313787117}
+  playerSpriteRenderer: {fileID: 313787137}
+  enemies:
+  - {fileID: 781688965}
+  - {fileID: 1414786619}
+  - {fileID: 1908750193}
 --- !u!1 &1728866226
 GameObject:
   m_ObjectHideFlags: 0
@@ -3357,7 +3376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f7181bdf54946d49a07e668556ae085, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initializer: {fileID: 1682303887}
+  initializer: {fileID: 1682303889}
   botonBajoDerecha: {fileID: 750446134}
   botonBajoIzquierda: {fileID: 1379637432}
   botonMedioDerecha: {fileID: 1091827032}
@@ -3516,6 +3535,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1863491981}
   m_CullTransparentMesh: 1
+--- !u!1 &1908750193 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1408230742428058050, guid: 93764044bc016f048bb9e2bccffface6, type: 3}
+  m_PrefabInstance: {fileID: 2016285334}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1927091324
 GameObject:
   m_ObjectHideFlags: 0
