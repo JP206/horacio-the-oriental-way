@@ -44,9 +44,9 @@ public class VidaEnemigo : MonoBehaviour
         vidaActual -= danio;
 
         // Activa la animación correspondiente al tipo de daño
-        if (typoDanio == "jab" || typoDanio == "high") { animator.SetTrigger("hitCabeza"); }
-        else if (typoDanio == "chest") { animator.SetTrigger("hitPecho"); }
-        else if (typoDanio == "low") { animator.SetTrigger("hitPiernas"); }
+        if (typoDanio == "jab" || typoDanio == "high") { animator.SetTrigger("enemyHeadHit"); }
+        else if (typoDanio == "chest") { animator.SetTrigger("enemyChestHit"); }
+        else if (typoDanio == "low") { animator.SetTrigger("enemyLegHit"); }
 
         // Checkeo si el enemigo tiene vida 0
         if (vidaActual <= 0) { Muerte(); }
@@ -61,8 +61,8 @@ public class VidaEnemigo : MonoBehaviour
         isDead = true; 
 
         // Activa los parametros de animacion de muerte
-        animator.SetBool("isMuerto", true);
-        animator.SetTrigger("estaMuerto");
+        animator.SetBool("isDead", true);
+        animator.SetTrigger("enemyDead");
 
         // Desactiva todos los colliders hijos
         DesactivarColliders();
@@ -93,7 +93,7 @@ public class VidaEnemigo : MonoBehaviour
 
         // Obtengo la el tiempo de la animacion estaMuerto
         float tiempoAnimacion = 0f;
-        if (animator != null && animator.GetCurrentAnimatorStateInfo(0).IsName("estaMuerto"))
+        if (animator != null && animator.GetCurrentAnimatorStateInfo(0).IsName("isDead"))
         {
             AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
             tiempoAnimacion = stateInfo.length;

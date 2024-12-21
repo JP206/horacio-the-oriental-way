@@ -29,7 +29,7 @@ public class InputManager : MonoBehaviour
     {
         if (horacioVivo)
         {
-            initializer.MovimientoEnX(DetectarMovimientoHorizontal());
+            initializer.XMovement(DetectarMovimientoHorizontal());
             DetectarAtaque();
         }
     }
@@ -55,37 +55,37 @@ public class InputManager : MonoBehaviour
 
     void BajoDerecha()
     {
-        initializer.MovimientoEnX(1);
+        initializer.XMovement(1);
         initializer.OnLowKick();
     }
 
     void BajoIzquierda()
     {
-        initializer.MovimientoEnX(-1);
+        initializer.XMovement(-1);
         initializer.OnLowKick();
     }
 
     void MedioDerecha()
     {
-        initializer.MovimientoEnX(1);
+        initializer.XMovement(1);
         initializer.OnHighKick();
     }
 
     void MedioIzquierda()
     {
-        initializer.MovimientoEnX(-1);
+        initializer.XMovement(-1);
         initializer.OnHighKick();
     }
 
     void AltoDerecha()
     {
-        initializer.MovimientoEnX(1);
+        initializer.XMovement(1);
         initializer.OnJab();
     }
 
     void AltoIzquierda()
     {
-        initializer.MovimientoEnX(-1);
+        initializer.XMovement(-1);
         initializer.OnJab();
     }
 

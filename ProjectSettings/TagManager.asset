@@ -4,29 +4,29 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemigo
-  - CabezaEnemigo
-  - TorsoEnemigo
-  - PiernasEnemigo
-  - CabezaHoracio
-  - TorsoHoracio
-  - PiernasHoracio
+  - Enemy
+  - EnemyHead
+  - EnemyChest
+  - EnemyLegs
+  - PlayerHead
+  - PlayerChest
+  - PlayerLegs
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Fondo
+  - Background
   - Water
   - UI
-  - Piso
-  - Jugador
-  - Enemigo
-  - CabezaEnemigo
-  - TorsoEnemigo
-  - PiernasEnemigo
-  - CabezaHoracio
-  - TorsoHoracio
-  - PiernasHoracio
+  - Floor
+  - Player
+  - Enemy
+  - EnemyHead
+  - EnemyChest
+  - EnemyLegs
+  - PlayerHead
+  - PlayerChest
+  - PlayerLegs
   - 
   - 
   - 

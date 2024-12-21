@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class Movimiento : MonoBehaviour
 {
-    [SerializeField] SpriteRenderer playerRenderer;
-
-    public void DetectarEjeX(float xValue)
+    public void DetectOnX(float xValue)
     {
         if (xValue > 0)
         {
