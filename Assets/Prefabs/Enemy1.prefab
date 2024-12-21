@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 2224115817139435180}
   - component: {fileID: 3363971398870722087}
   m_Layer: 9
-  m_Name: CabezaEnemigo
+  m_Name: EnemyHead
   m_TagString: CabezaEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 6557336728254053501}
   - component: {fileID: 7581813171088491939}
   m_Layer: 8
-  m_Name: Exportar-enemigo-2.gif_0
+  m_Name: Enemy1
   m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -273,7 +273,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   rayLength: 1.2
-  jabRayPosition: {fileID: 2332209900705220351}
 --- !u!114 &2881804970515832649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -576,7 +575,7 @@ GameObject:
   - component: {fileID: 6467996310044422254}
   - component: {fileID: 5910915421670242311}
   m_Layer: 11
-  m_Name: PiernasEnemigo
+  m_Name: EnemyLegs
   m_TagString: PiernasEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -643,7 +642,7 @@ GameObject:
   - component: {fileID: 869481265205623137}
   - component: {fileID: 7933956898760759518}
   m_Layer: 10
-  m_Name: TorsoEnemigo
+  m_Name: EnemyChest
   m_TagString: TorsoEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

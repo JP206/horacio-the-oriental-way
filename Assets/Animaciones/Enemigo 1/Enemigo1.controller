@@ -169,7 +169,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: xVelocidad
+    m_ConditionEvent: xVlocity
     m_EventTreshold: 0.1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5178382804515509657}
@@ -220,7 +220,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: hitPecho
+    m_ConditionEvent: enemyChestHit
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -50274146281207364}
@@ -271,7 +271,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: hitCabeza
+    m_ConditionEvent: enemyHeadHit
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2288494225798946154}
@@ -296,7 +296,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: isMuerto
+    m_ConditionEvent: isDead
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5018972980958901830}
@@ -393,7 +393,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: golpeDerecha
+    m_ConditionEvent: rightJab
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7999347001791081883}
@@ -446,48 +446,48 @@ AnimatorController:
   m_Name: Enemigo1
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: xVelocidad
+  - m_Name: xVlocity
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: golpeDerecha
+    m_Controller: {fileID: 0}
+  - m_Name: rightJab
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: hitCabeza
+    m_Controller: {fileID: 0}
+  - m_Name: enemyHeadHit
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: hitPecho
+    m_Controller: {fileID: 0}
+  - m_Name: enemyChestHit
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: hitPiernas
+    m_Controller: {fileID: 0}
+  - m_Name: enemyLegHit
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: estaMuerto
+    m_Controller: {fileID: 0}
+  - m_Name: enemyDead
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: isMuerto
+    m_Controller: {fileID: 0}
+  - m_Name: isDead
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -588,40 +588,40 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -5178382804515509657}
-    m_Position: {x: 100, y: 180, z: 0}
+    m_Position: {x: 360, y: 200, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7999347001791081883}
-    m_Position: {x: 330, y: 180, z: 0}
+    m_Position: {x: 360, y: 250, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -665195968927774986}
     m_Position: {x: 100, y: 250, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2288494225798946154}
-    m_Position: {x: -100, y: 320, z: 0}
+    m_Position: {x: -120, y: 340, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -50274146281207364}
-    m_Position: {x: 150, y: 480, z: 0}
+    m_Position: {x: 300, y: 340, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5018972980958901830}
-    m_Position: {x: 110, y: 610, z: 0}
+    m_Position: {x: -20, y: 610, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6606967556543552235}
-    m_Position: {x: 20, y: 390, z: 0}
+    m_Position: {x: 90, y: 340, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1756355069465288269}
-    m_Position: {x: 620, y: 470, z: 0}
+    m_Position: {x: 620, y: 380, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6340327960322283959}
-    m_Position: {x: 700, y: 400, z: 0}
+    m_Position: {x: 620, y: 330, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5304313507372412575}
-    m_Position: {x: 500, y: 360, z: 0}
+    m_Position: {x: 620, y: 280, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3742345011529463818}
-    m_Position: {x: 470, y: 300, z: 0}
+    m_Position: {x: 620, y: 230, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4044038164505718869}
-    m_Position: {x: 430, y: 240, z: 0}
+    m_Position: {x: 620, y: 180, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: -3419605331541309030}
@@ -630,9 +630,9 @@ AnimatorStateMachine:
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: -250, y: 460, z: 0}
+  m_AnyStatePosition: {x: 240, y: 620, z: 0}
   m_EntryPosition: {x: -110, y: 200, z: 0}
-  m_ExitPosition: {x: -290, y: 200, z: 0}
+  m_ExitPosition: {x: -110, y: 160, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -665195968927774986}
 --- !u!1101 &4436013179153923099
@@ -644,7 +644,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: hitPiernas
+    m_ConditionEvent: enemyLegHit
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6606967556543552235}
@@ -669,7 +669,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 4
-    m_ConditionEvent: xVelocidad
+    m_ConditionEvent: xVlocity
     m_EventTreshold: 0.1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -665195968927774986}
@@ -694,7 +694,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: isMuerto
+    m_ConditionEvent: isDead
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5018972980958901830}
@@ -741,7 +741,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: isMuerto
+    m_ConditionEvent: isDead
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5018972980958901830}

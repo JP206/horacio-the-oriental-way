@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 284707947474237706}
   - component: {fileID: 7678680635041956117}
   m_Layer: 8
-  m_Name: Enemigo 1 c
+  m_Name: Enemy3
   m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -330,7 +330,7 @@ GameObject:
   - component: {fileID: 9114420232299405174}
   - component: {fileID: 3598223826618526186}
   m_Layer: 11
-  m_Name: PiernaEnemigo
+  m_Name: EnemyLegs
   m_TagString: PiernasEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -397,7 +397,7 @@ GameObject:
   - component: {fileID: 5731058387368651541}
   - component: {fileID: 3381294290676987679}
   m_Layer: 10
-  m_Name: TorzoEnemigo
+  m_Name: EnemyChest
   m_TagString: TorsoEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -464,7 +464,7 @@ GameObject:
   - component: {fileID: 8291826568521601257}
   - component: {fileID: 1162488858624593268}
   m_Layer: 9
-  m_Name: CabezaEnemigo
+  m_Name: EnemyHead
   m_TagString: CabezaEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
