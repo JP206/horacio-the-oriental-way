@@ -447,6 +447,18 @@ PrefabInstance:
       propertyPath: m_TagString
       value: EnemyLegs
       objectReference: {fileID: 0}
+    - target: {fileID: 5612717386951148898, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+      propertyPath: movementSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6949768710231435025, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+      propertyPath: blinkDuration
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6949768710231435025, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
+      propertyPath: maxHpGrayEnemy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7026552625969125257, guid: 9dec98cfa849b814eba95c3a9f2bdad1, type: 3}
       propertyPath: m_Size.x
       value: 1.2429957
@@ -654,6 +666,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6557336728254053501, guid: 7372f79bc823dd14a8992330638d80bb, type: 3}
+      propertyPath: blinkDuration
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6557336728254053501, guid: 7372f79bc823dd14a8992330638d80bb, type: 3}
+      propertyPath: maxHpGrayEnemy
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7581813171088491939, guid: 7372f79bc823dd14a8992330638d80bb, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -733,6 +753,10 @@ PrefabInstance:
     - target: {fileID: 8917509271008582573, guid: 7372f79bc823dd14a8992330638d80bb, type: 3}
       propertyPath: m_TagString
       value: EnemyChest
+      objectReference: {fileID: 0}
+    - target: {fileID: 9190966456967159330, guid: 7372f79bc823dd14a8992330638d80bb, type: 3}
+      propertyPath: movementSpeed
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3377,13 +3401,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initializer: {fileID: 1682303889}
-  botonBajoDerecha: {fileID: 750446134}
-  botonBajoIzquierda: {fileID: 1379637432}
-  botonMedioDerecha: {fileID: 1091827032}
-  botonMedioIzquierda: {fileID: 825590845}
-  botonAltoDerecha: {fileID: 1346503347}
-  botonAltoIzquierda: {fileID: 742602309}
-  botonEspecial: {fileID: 1331291316}
+  lowRightButton: {fileID: 750446134}
+  lowLeftButton: {fileID: 1379637432}
+  midRightButton: {fileID: 1091827032}
+  midLeftButton: {fileID: 825590845}
+  highRightButton: {fileID: 1346503347}
+  highLeftButton: {fileID: 742602309}
+  specialButton: {fileID: 1331291316}
 --- !u!4 &1820743876
 Transform:
   m_ObjectHideFlags: 0
@@ -3766,6 +3790,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 284707947474237706, guid: 93764044bc016f048bb9e2bccffface6, type: 3}
+      propertyPath: blinkDuration
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 284707947474237706, guid: 93764044bc016f048bb9e2bccffface6, type: 3}
+      propertyPath: maxHpGrayEnemy
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 564541756267893240, guid: 93764044bc016f048bb9e2bccffface6, type: 3}
+      propertyPath: movementSpeed
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 1408230742428058050, guid: 93764044bc016f048bb9e2bccffface6, type: 3}
       propertyPath: m_Name
       value: Enemy3

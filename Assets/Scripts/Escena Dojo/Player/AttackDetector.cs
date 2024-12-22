@@ -35,7 +35,7 @@ public class AttackDetector : MonoBehaviour
 
             if (enemigoGolpeado != null)
             {
-                enemigoGolpeado.RecibirDanio(danio, "jab");
+                enemigoGolpeado.ReceiveDamage(danio, "jab");
                 sonidoGolpe.HighSound();
             }
         }
@@ -59,7 +59,7 @@ public class AttackDetector : MonoBehaviour
 
             if (enemigoGolpeado != null)
             {
-                enemigoGolpeado.RecibirDanio(danio, "high");
+                enemigoGolpeado.ReceiveDamage(danio, "high");
                 sonidoGolpe.HighSound();
             }
         }
@@ -79,7 +79,7 @@ public class AttackDetector : MonoBehaviour
 
             if (enemigoGolpeado != null)
             {
-                enemigoGolpeado.RecibirDanio(danio, "chest");
+                enemigoGolpeado.ReceiveDamage(danio, "chest");
                 sonidoGolpe.ChestSound();
             }
         }
@@ -99,7 +99,7 @@ public class AttackDetector : MonoBehaviour
 
             if (enemigoGolpeado != null)
             {
-                enemigoGolpeado.RecibirDanio(danio, "low");
+                enemigoGolpeado.ReceiveDamage(danio, "low");
                 sonidoGolpe.LowSound();
             }
         }
