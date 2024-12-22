@@ -6,41 +6,41 @@ using UnityEngine.UI;
 public class InputManager : MonoBehaviour
 {
     [SerializeField] SceneInitializer initializer;
-    bool horacioVivo = true;
+    bool horacioIsAlive = true;
     [SerializeField]
-    Button botonBajoDerecha, botonBajoIzquierda, botonMedioDerecha, botonMedioIzquierda,
-        botonAltoDerecha, botonAltoIzquierda, botonEspecial;
+    Button lowRightButton, lowLeftButton, midRightButton, midLeftButton,
+        highRightButton, highLeftButton, specialButton;
 
     void Start()
     {
-        botonBajoDerecha.onClick.AddListener(BajoDerecha);
-        botonBajoIzquierda.onClick.AddListener(BajoIzquierda);
+        lowRightButton.onClick.AddListener(LowRight);
+        lowLeftButton.onClick.AddListener(LowLeft);
 
-        botonMedioDerecha.onClick.AddListener(MedioDerecha);
-        botonMedioIzquierda.onClick.AddListener(MedioIzquierda);
+        midRightButton.onClick.AddListener(MidRight);
+        midLeftButton.onClick.AddListener(MidLeft);
 
-        botonAltoDerecha.onClick.AddListener(AltoDerecha);
-        botonAltoIzquierda.onClick.AddListener(AltoIzquierda);
+        highRightButton.onClick.AddListener(HightRight);
+        highLeftButton.onClick.AddListener(HighLeft);
 
-        botonEspecial.onClick.AddListener(AtaqueEspecial);
+        specialButton.onClick.AddListener(SpecialAttack);
     }
 
     void Update()
     {
-        if (horacioVivo)
+        if (horacioIsAlive)
         {
-            initializer.XMovement(DetectarMovimientoHorizontal());
-            DetectarAtaque();
+            initializer.XMovement(DetectHorizontalMovement());
+            DetectAttack();
         }
     }
 
-    float DetectarMovimientoHorizontal()
+    float DetectHorizontalMovement()
     {
         //GetAxisRaw() Genera "Smooth" en el movimiento del personaje 
         return Input.GetAxisRaw("Horizontal");
     }
 
-    void DetectarAtaque()
+    void DetectAttack()
     {
         if (Input.GetButtonDown("Jab")) { initializer.OnJab(); } // Boton X
         if (Input.GetButtonDown("HighKick")) { initializer.OnHighKick(); } // Boton Z
@@ -48,48 +48,48 @@ public class InputManager : MonoBehaviour
         if (Input.GetButtonDown("LowKick")) { initializer.OnLowKick(); } // Boton V
     }
 
-    public void HoracioVivo(bool vivo)
+    public void HoracioAlive(bool alive)
     {
-        horacioVivo = vivo;
+        horacioIsAlive = alive;
     }
 
-    void BajoDerecha()
+    void LowRight()
     {
         initializer.XMovement(1);
         initializer.OnLowKick();
     }
 
-    void BajoIzquierda()
+    void LowLeft()
     {
         initializer.XMovement(-1);
         initializer.OnLowKick();
     }
 
-    void MedioDerecha()
+    void MidRight()
     {
         initializer.XMovement(1);
         initializer.OnHighKick();
     }
 
-    void MedioIzquierda()
+    void MidLeft()
     {
         initializer.XMovement(-1);
         initializer.OnHighKick();
     }
 
-    void AltoDerecha()
+    void HightRight()
     {
         initializer.XMovement(1);
         initializer.OnJab();
     }
 
-    void AltoIzquierda()
+    void HighLeft()
     {
         initializer.XMovement(-1);
         initializer.OnJab();
     }
 
-    void AtaqueEspecial()
+    void SpecialAttack()
     {
         initializer.OnSpecialKick();
     }

@@ -3,15 +3,15 @@ using UnityEngine;
 
 public class VidaEnemigo : MonoBehaviour
 {
-    public int vidaMaximaEnemigoGris = 20;
-    private int vidaActual;
+    public int maxHpGrayEnemy = 20;
+    private int currentHp;
 
     Animator animator;
     private SpriteRenderer spriteRenderer;
 
-    [SerializeField] private float duracionTintineo = 2f;
-    [SerializeField] private float intervaloTintineo = 0.1f;
-    [SerializeField] private float tiempoAntesDeTintinear = 1f;
+    [SerializeField] private float blinkDuration = 2f;
+    [SerializeField] private float blinkInterval = 0.1f;
+    [SerializeField] private float timeBeforeBlink = 1f;
 
     private bool isDead = false; // bandera para evitar ejecutar Muerte() mas de una vez
 
@@ -30,29 +30,29 @@ public class VidaEnemigo : MonoBehaviour
         }
 
         // Inicializa la vida actual
-        vidaActual = vidaMaximaEnemigoGris;
+        currentHp = maxHpGrayEnemy;
 
         // Reinicia el estado de muerte
         isDead = false;
     }
 
-    public void RecibirDanio(int danio, string typoDanio)
+    public void ReceiveDamage(int damage, string damageType)
     {
         // No procesa daño si el enemigo ya esta muerto
         if (isDead) return; 
 
-        vidaActual -= danio;
+        currentHp -= damage;
 
         // Activa la animación correspondiente al tipo de daño
-        if (typoDanio == "jab" || typoDanio == "high") { animator.SetTrigger("enemyHeadHit"); }
-        else if (typoDanio == "chest") { animator.SetTrigger("enemyChestHit"); }
-        else if (typoDanio == "low") { animator.SetTrigger("enemyLegHit"); }
+        if (damageType == "jab" || damageType == "high") { animator.SetTrigger("enemyHeadHit"); }
+        else if (damageType == "chest") { animator.SetTrigger("enemyChestHit"); }
+        else if (damageType == "low") { animator.SetTrigger("enemyLegHit"); }
 
         // Checkeo si el enemigo tiene vida 0
-        if (vidaActual <= 0) { Muerte(); }
+        if (currentHp <= 0) { Death(); }
     }
 
-    private void Muerte()
+    private void Death()
     {
         // Logica de muerte se ejecuta una sola ves
         if (isDead) return;
@@ -65,13 +65,13 @@ public class VidaEnemigo : MonoBehaviour
         animator.SetTrigger("enemyDead");
 
         // Desactiva todos los colliders hijos
-        DesactivarColliders();
+        DisableColliders();
 
         // Inicia la corrutina para el tintineo y destrucción
-        StartCoroutine(TintinearYDesactivar());
+        StartCoroutine(BlinkAndDisable());
     }
 
-    private void DesactivarColliders()
+    private void DisableColliders()
     {
         // Obtengo los colliders y todos su hijos
         Collider2D[] colliders = GetComponentsInChildren<Collider2D>();
@@ -83,45 +83,42 @@ public class VidaEnemigo : MonoBehaviour
         }
     }
 
-    private IEnumerator TintinearYDesactivar()
+    private IEnumerator BlinkAndDisable()
     {
         //Obtengo la referencia del enemigo directamente del metodo
         SetupEnemy();
 
         // Espera un tiempo antes de comenzar el tintineo
-        yield return new WaitForSeconds(tiempoAntesDeTintinear);
+        yield return new WaitForSeconds(timeBeforeBlink);
 
         // Obtengo la el tiempo de la animacion estaMuerto
-        float tiempoAnimacion = 0f;
+        float animationTime = 0f;
         if (animator != null && animator.GetCurrentAnimatorStateInfo(0).IsName("isDead"))
         {
             AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-            tiempoAnimacion = stateInfo.length;
+            animationTime = stateInfo.length;
         }
 
         // Empieza a tintinear mientras se ejecuta la animación
-        float tiempoTranscurrido = 0f;
+        float elapsedTime = 0f;
 
-        while (tiempoTranscurrido < duracionTintineo)
+        while (elapsedTime < blinkDuration)
         {
             // Alterna la visibilidad
             spriteRenderer.enabled = !spriteRenderer.enabled;
 
             // Espera un intervalo de tiempo
-            yield return new WaitForSeconds(intervaloTintineo);
+            yield return new WaitForSeconds(blinkInterval);
 
             // Incrementa el tiempo transcurrido
-            tiempoTranscurrido += intervaloTintineo;
+            elapsedTime += blinkInterval;
         }
 
         // Apago el sprite antes de destruir al enemigo
         spriteRenderer.enabled = false;
 
         // Espera a que termine la animacion antes de destruir
-        yield return new WaitForSeconds(Mathf.Max(0f, tiempoAnimacion - duracionTintineo));
-
-        // Finalmente destruye el objeto
-        //Destroy(gameObject);
+        yield return new WaitForSeconds(Mathf.Max(0f, animationTime - blinkDuration));
 
         // Desactivo el objeto para que quede en el pool
         gameObject.SetActive(false);

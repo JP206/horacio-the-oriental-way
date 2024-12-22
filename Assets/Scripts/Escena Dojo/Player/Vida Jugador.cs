@@ -78,7 +78,7 @@ public class VidaJugador : MonoBehaviour
     private void Muerte()
     {
         StopAllCoroutines();
-        inputManager.HoracioVivo(false);
+        inputManager.HoracioAlive(false);
         animator.SetTrigger("Dead");
         StartCoroutine(WaitForAnimationAndFadeOut());
     }

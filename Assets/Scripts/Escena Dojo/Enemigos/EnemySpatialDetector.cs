@@ -9,26 +9,26 @@ public class EnemySpatialDetector : MonoBehaviour
 
     AtaqueEnemigo ataqueEnemigo;
     MovimientoEnemigo movimientoEnemigo;
-    VidaJugador jugador;
+    VidaJugador vidaJugador;
 
     public void InitializeReferences(AtaqueEnemigo _ataqueEnemigo, MovimientoEnemigo _movimientoEnemigo, VidaJugador _jugador)
     {
         ataqueEnemigo = _ataqueEnemigo;
         movimientoEnemigo = _movimientoEnemigo;
-        jugador = _jugador;
+        vidaJugador = _jugador;
 
-        Debug.Log($"References initialized: AtaqueEnemigo={ataqueEnemigo}, MovimientoEnemigo={movimientoEnemigo}, Jugador={jugador}");
+        Debug.Log($"References initialized: AtaqueEnemigo={ataqueEnemigo}, MovimientoEnemigo={movimientoEnemigo}, Jugador={vidaJugador}");
     }
 
     void Update()
     {
-        if (jugador == null)
+        if (vidaJugador == null)
         {
             Debug.LogError("Jugador no asignado en EnemySpatialDetector. Revisa la inicialización.");
             return;
         }
 
-        Vector2 direccion = transform.position.x - jugador.transform.position.x > 0 ? Vector2.left : Vector2.right;
+        Vector2 direccion = transform.position.x - vidaJugador.transform.position.x > 0 ? Vector2.left : Vector2.right;
         RaycastHit2D hit = Physics2D.Raycast(transform.position, direccion, rayLength, collisionLayer);
         Debug.DrawRay(transform.position, direccion * rayLength, Color.red);
 

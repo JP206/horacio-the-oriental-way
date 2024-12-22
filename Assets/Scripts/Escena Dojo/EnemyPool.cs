@@ -29,7 +29,7 @@ public class EnemyPool : MonoBehaviour
         }
     }
 
-    public GameObject GetEnemigo()
+    public GameObject GetEnemy()
     {
         for (int i = 0; i < cantidadPool; i++)
         {
